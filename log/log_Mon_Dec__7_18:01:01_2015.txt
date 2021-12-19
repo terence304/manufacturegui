@@ -1,0 +1,90 @@
+Erasing Device [PASS]
+Writing UICR [PASS]
+Flash SoftDevice [PASS]
+Flash Tester [PASS]
+Flash Bootloader [PASS]
+test mic
+
+> 
+
+[TEST] <mic>
+Detecting syllables....
+actual: 5, expected: 5
+[PASS] <mic>
+
+[END]
+
+test ble
+
+> 
+
+[TEST] <ble>
+DemoPeripheral ADVERTISING. Connect to it.
+DemoPeripheral CONNECTED. Now disconnect.
+DemoPeripheral DISCONNECTED.
+[PASS] <ble>
+
+[END]
+
+
+test axl
+
+> 
+
+[TEST] <axl>
+Accelerometer ON
+Press button to make measurement.
+whoami: 0x33
+z-axis
+y-axis
+x-axis
+[PASS] <axl>
+
+[END]
+
+
+test als
+
+> 
+
+[TEST] <als>
+Press button to start measurement...
+ALS reading: 7 lux
+[PASS] <als>
+
+[END]
+
+
+test batt
+
+> 
+
+[TEST] <batt>
+Measuring battery voltage...
+Battery voltage: 3770 mV
+Connect +5V to continue...
+Disconnect +5V to continue...
+[PASS] <batt>
+
+[END]
+
+test stop
+
+> Flash Product [PASS]
+10001084 = FFFFFFFF 94967295 
+Erasing Device [PASS]
+Writing UICR [PASS]
+Flash SoftDevice [PASS]
+Flash Tester [PASS]
+Flash Bootloader [PASS]
+test mic
+
+> 
+
+[TEST] <mic>
+Detecting syllables...
+actual: 5, expected: 5
+[PASS] <mic>
+
+[END]
+

@@ -1,0 +1,4 @@
+pyserial==2.7
+pyobjc==3.0.4
+PyInstaller==3.1.1
+zebra==0.0.5

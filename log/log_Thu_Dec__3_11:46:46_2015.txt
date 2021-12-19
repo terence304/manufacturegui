@@ -1,0 +1,213 @@
+SEGGER J-Link Commander V5.02e ('?' for help)
+Compiled Sep 25 2015 18:00:29
+
+Script file read successfully.
+DLL version V5.02e, compiled Sep 25 2015 18:00:24
+Firmware: J-Link V9 compiled Sep 18 2015 19:53:12
+Hardware: V9.30
+S/N: 269306082 
+OEM: SEGGER-EDU 
+Feature(s): FlashBP, GDB 
+Emulator has Trace capability
+VTarget = 3.011V
+Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+No devices found on JTAG chain. Trying to find device on SWD.
+Info: Found SWD-DP with ID 0x0BB11477
+Info: Found Cortex-M0 r0p0, Little endian.
+Info: FPUnit: 4 code (BP) slots and 0 literal slots
+Info: CoreSight components:
+Info: ROMTbl 0 @ F0000000
+Info: ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+Info: ROMTbl 1 @ E00FF000
+Info: ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+Info: ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+Info: ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+Info: ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+Cortex-M0 identified.
+Target interface speed: 100 kHz
+Processing script file...
+
+Info: Device "NRF51822_XXAA" selected.
+Reconnecting to target...
+Info: Found SWD-DP with ID 0x0BB11477
+Info: Found Cortex-M0 r0p0, Little endian.
+Info: FPUnit: 4 code (BP) slots and 0 literal slots
+Info: CoreSight components:
+Info: ROMTbl 0 @ F0000000
+Info: ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+Info: ROMTbl 1 @ E00FF000
+Info: ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+Info: ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+Info: ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+Info: ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+
+Target interface speed: 1000 kHz
+
+Writing 00000002 -> 4001E504
+
+Writing 00000001 -> 4001E50C
+
+Sleep(50)
+
+Reset delay: 0 ms
+Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+
+Writing 00000001 -> 4001E504
+
+Writing DEAFBEEF -> 10001084
+
+Writing 56609C4B -> 10001088
+
+Writing 0003C000 -> 10001014
+
+Writing 00000001 -> 0003FC00
+
+Downloading file [../img/softdevice.bin]...Info: J-Link: Flash download: Flash programming performed for 3 ranges (95232 bytes)
+Info: J-Link: Flash download: Total time needed: 1.472s (Prepare: 0.092s, Compare: 0.037s, Erase: 0.000s, Program: 1.323s, Verify: 0.009s, Restore: 0.008s)
+O.K.
+
+Downloading file [../img/tester.bin]...Info: J-Link: Flash download: Flash programming performed for 1 range (48128 bytes)
+Info: J-Link: Flash download: Total time needed: 1.235s (Prepare: 0.306s, Compare: 0.017s, Erase: 0.000s, Program: 0.688s, Verify: 0.003s, Restore: 0.219s)
+O.K.
+
+Downloading file [../img/bootloader.bin]...Info: J-Link: Flash download: Flash programming performed for 1 range (13312 bytes)
+Info: J-Link: Flash download: Total time needed: 0.757s (Prepare: 0.309s, Compare: 0.006s, Erase: 0.000s, Program: 0.219s, Verify: 0.001s, Restore: 0.220s)
+O.K.
+
+Reset delay: 0 ms
+Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+
+
+
+Script processing completed.
+
+
+
+
+abrams-tester shell
+v 0.8.1
+VersaMe
+
+Type 'help' or '?' for list of commands.
+
+> test all
+
+> 
+
+[TEST] <button>
+Press button 3 times to pass test.
+press
+press
+press
+[PASS] <button>
+
+
+[TEST] <rgb>
+Verify RED led is ON and press button to continue...
+Verify GREEN led is ON and press button to continue...
+Verify BLUE led is ON and press button to continue...
+[PASS] <rgb>
+
+
+[TEST] <mic>
+Detecting syllables...
+actual: 5, expected: 5
+[PASS] <mic>
+
+
+[TEST] <ble>
+DemoPeripheral ADVERTISING. Connect to it.
+The RSSI value is -56 
+DemoPeripheral CONNECTED. Now disconnect.
+DemoPeripheral DISCONNECTED.
+[PASS] <ble>
+
+
+[TEST] <axl>
+Accelerometer ON
+Press button to make measurement.
+whoami: 0x33
+z-axis
+y-axis
+x-axis
+[PASS] <axl>
+
+
+[TEST] <als>
+Press button to start measurement...
+ALS reading: 9 lux
+[PASS] <als>
+
+
+[TEST] <batt>
+Measuring battery voltage...
+Battery voltage: 4177 mV
+Connect +5V to continue...
+Disconnect +5V to continue...
+[PASS] <batt>
+
+[END]
+
+SEGGER J-Link Commander V5.02e ('?' for help)
+Compiled Sep 25 2015 18:00:29
+
+Script file read successfully.
+DLL version V5.02e, compiled Sep 25 2015 18:00:24
+Firmware: J-Link V9 compiled Sep 18 2015 19:53:12
+Hardware: V9.30
+S/N: 269306082 
+OEM: SEGGER-EDU 
+Feature(s): FlashBP, GDB 
+Emulator has Trace capability
+VTarget = 3.009V
+Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+No devices found on JTAG chain. Trying to find device on SWD.
+Info: Found SWD-DP with ID 0x0BB11477
+Info: Found Cortex-M0 r0p0, Little endian.
+Info: FPUnit: 4 code (BP) slots and 0 literal slots
+Info: CoreSight components:
+Info: ROMTbl 0 @ F0000000
+Info: ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+Info: ROMTbl 1 @ E00FF000
+Info: ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+Info: ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+Info: ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+Info: ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+Cortex-M0 identified.
+Target interface speed: 100 kHz
+Processing script file...
+
+Info: Device "NRF51822_XXAA" selected.
+Reconnecting to target...
+Info: Found SWD-DP with ID 0x0BB11477
+Info: Found Cortex-M0 r0p0, Little endian.
+Info: FPUnit: 4 code (BP) slots and 0 literal slots
+Info: CoreSight components:
+Info: ROMTbl 0 @ F0000000
+Info: ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+Info: ROMTbl 1 @ E00FF000
+Info: ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+Info: ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+Info: ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+Info: ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+
+Target interface speed: 1000 kHz
+
+Writing 00000001 -> 4001E504
+
+Halting CPU for downloading file.
+Downloading file [../img/product.bin]...Info: J-Link: Flash download: Flash programming performed for 1 range (82944 bytes)
+Info: J-Link: Flash download: Total time needed: 2.190s (Prepare: 0.094s, Compare: 0.026s, Erase: 0.998s, Program: 1.057s, Verify: 0.005s, Restore: 0.008s)
+O.K.
+
+10001084 = DEAFBEEF 56609C4B 
+
+Reset delay: 0 ms
+Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+
+
+
+Script processing completed.
+

@@ -1,0 +1,5 @@
+Erasing Device [PASS]
+Writing UICR [PASS]
+Flash SoftDevice [PASS]
+Flash Tester [PASS]
+Flash Bootloader [PASS]

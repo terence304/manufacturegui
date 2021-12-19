@@ -1,0 +1,3447 @@
+--- {Session Start} Lot Name: "00C2D011", TimeStamp: "0x57116b7b" ---
+2016-07-05_13:38:52_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.972V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  10001080 = 30315354 00C2D011 57116B7B 
+				  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.972V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000002 -> 4001E504
+				  Writing 00000001 -> 4001E50C
+				  Sleep(50)
+				  2016-07-05_13:38:52_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.972V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Writing 30315354 -> 10001080
+				  Writing 00C2D011 -> 10001084
+				  Writing 57116B7B -> 10001088
+				  Writing 0003C000 -> 10001014
+				  Writing 00000001 -> 0003FC00
+				  J-Link: Flash download: Flash programming performed for 2 ranges (2048 bytes)
+				  J-Link: Flash download: Total time needed: 0.070s (Prepare: 0.055s, Compare: 0.003s, Erase: 0.000s, Program: 0.006s, Verify: 0.001s, Restore: 0.003s)
+				  2016-07-05_13:38:58_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.974V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/s130-v2.0.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]000%]000%]005%]005%]005%]005%]005%]005%]010%]010%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]020%]020%]025%]025%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]035%]035%]040%]040%]040%]040%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]050%]050%]055%]055%]055%]055%]055%]055%]060%]060%]060%]060%]060%]060%]065%]065%]065%]065%]070%]070%]070%]070%]070%]070%]075%]075%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]085%]085%]090%]090%]090%]090%]090%]090%]095%]095%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (110592 bytes)
+				  J-Link: Flash download: Total time needed: 0.888s (Prepare: 0.054s, Compare: 0.022s, Erase: 0.000s, Program: 0.800s, Verify: 0.007s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-07-05_13:39:01_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.972V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/abt-tester.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]090%]090%]090%]090%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (67584 bytes)
+				  J-Link: Flash download: Total time needed: 0.570s (Prepare: 0.054s, Compare: 0.013s, Erase: 0.000s, Program: 0.494s, Verify: 0.004s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-07-05_13:39:05_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.972V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]005%]005%]010%]010%]010%]010%]015%]015%]020%]020%]020%]020%]025%]025%]030%]030%]030%]030%]035%]035%]040%]040%]040%]040%]045%]045%]050%]050%]050%]050%]055%]055%]060%]060%]060%]060%]065%]065%]070%]070%]070%]070%]075%]075%]080%]080%]080%]080%]085%]085%]090%]090%]090%]090%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash progr2016-07-05_13:47:03_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.971V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]050%]100%] Done.
+				  Verifying flash   [000%]100%] Done.
+				  J-Link: Flash download: Flash download skipped. Flash contents already match
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-07-05_13:47:08_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 243 mV... OK
+				  Enabled: 1432 mV... OK
+				  Detect syllable... 2016-07-05_13:47:14_UTC-0700	  test stop
+				  
+				  > 2016-07-05_13:48:22_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 232 mV... OK
+				  Enabled: 1432 mV... OK
+				  Detect syllable... 2016-07-05_13:48:25_UTC-0700	  test stop
+				  [FAIL] <mic>
+				  
+				  > 2016-07-05_13:48:32_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 226 mV... OK
+				  Enabled: 1433 mV... OK
+				  Detect syllable... 2016-07-05_13:48:36_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_13:49:09_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 228 mV... OK
+				  Enabled: 1433 mV... OK
+				  Detect syllable... 2016-07-05_13:49:11_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_13:49:46_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 229 mV... OK
+				  Enabled: 1432 mV... OK
+				  Detect syllable... 2016-07-05_13:49:48_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_13:50:02_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 223 mV... OK
+				  Enabled: 1433 mV... OK
+				  Detect syllable... 2016-07-05_13:50:07_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_13:50:11_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 231 mV... OK
+				  Enabled: 1433 mV... OK
+				  Detect syllable... 2016-07-05_13:50:18_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_13:50:18_UTC-0700	  test stop
+				  
+				  > 2016-07-05_13:50:22_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 226 mV... OK
+				  Enabled: 1433 mV... OK
+				  Detect syllable... 2016-07-05_13:50:24_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_13:50:29_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 230 mV... OK
+				  Enabled: 1433 mV... OK
+				  Detect syllable... 2016-07-05_13:50:34_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_13:50:37_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 237 mV... OK
+				  Enabled: 1434 mV... OK
+				  Detect syllable... 2016-07-05_13:50:39_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_13:50:50_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_13:50:52_UTC-0700	  press
+				  2016-07-05_13:50:53_UTC-0700	  press
+				  2016-07-05_13:50:53_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_13:50:54_UTC-0700	  Verify GREEN led is ON and press button to continue...
+				  2016-07-05_13:50:54_UTC-0700	  Verify BLUE led is ON and press button to continue...
+				  2016-07-05_13:50:55_UTC-0700	  [PASS] <rgb>
+				  
+				  
+				  [TEST] <als>
+				  Measuring light source...
+				  ALS reading: 4 lux
+				  [ERROR] Reading is outside valid range
+				  [FAIL] <als>
+				  
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect to it.
+				  2016-07-05_13:51:03_UTC-0700	  The RSSI value is -74 
+				  2016-07-05_13:51:03_UTC-0700	  
+				  [FAIL] RSSI signal is Poor.
+				  2016-07-05_13:51:03_UTC-0700	  DemoPeripheral CONNECTED. Now disconnect.
+				  DemoPeripheral DISCONNECTED.
+				  [PASS] <ble>
+				  
+				  
+				  [TEST] <mic>
+				  Disabled: 226 mV... OK
+				  Enabled: 1433 mV... OK
+				  Detect syllable... 2016-07-05_13:51:08_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  
+				  [TEST] <batt>
+				  Measuring battery voltage.2016-07-05_13:51:08_UTC-0700	  ..
+				  2016-07-05_13:51:09_UTC-0700	  Battery voltage: 3874 mV
+				  Connect +5V to continue...
+				  2016-07-05_13:51:15_UTC-0700	  test stop
+				  [FAIL] <batt>
+				  
+				  > 2016-07-05_13:51:18_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_13:51:20_UTC-0700	  press
+				  2016-07-05_13:51:20_UTC-0700	  press
+				  2016-07-05_13:51:20_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_13:51:21_UTC-0700	  Verify GREEN led is ON and press button to continue...
+				  2016-07-05_13:51:21_UTC-0700	  Verify BLUE led is ON and press button to continue...
+				  2016-07-05_13:51:22_UTC-0700	  [PASS] <rgb>
+				  
+				  
+				  [TEST] <als>
+				  Measuring light source...
+				  ALS reading: 4 lux
+				  [ERROR] Reading is outside valid range
+				  [FAIL] <als>
+				  
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect to it.
+				  2016-07-05_13:51:28_UTC-0700	  The RSSI value is -74 
+				  2016-07-05_13:51:28_UTC-0700	  
+				  [FAIL] RSSI signal is Poor.
+				  2016-07-05_13:51:28_UTC-0700	  DemoPeripheral CONNECTED. Now disconnect.
+				  DemoPeripheral DISCONNECTED.
+				  [PASS] <ble>
+				  
+				  
+				  [TEST] <mic>
+				  Disabled: 223 mV... OK
+				  Enabled: 1433 mV... OK
+				  Detect syllable... 2016-07-05_13:51:29_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  
+				  [TEST] <batt>
+				  Measuring battery voltage...
+				  2016-07-05_13:51:30_UTC-0700	  Battery voltage: 3874 mV
+				  Connect +5V to continue...
+				  2016-07-05_13:51:34_UTC-0700	  test stop
+				  [FAIL] <batt>
+				  
+				  > 2016-07-05_13:51:37_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_13:51:39_UTC-0700	  press
+				  2016-07-05_13:51:39_UTC-0700	  press
+				  2016-07-05_13:51:39_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_13:51:40_UTC-0700	  Verify GREEN led is ON and press button to continue...
+				  2016-07-05_13:51:40_UTC-0700	  Verify BLUE led is ON and press button to continue...
+				  2016-07-05_13:51:41_UTC-0700	  [PASS] <rgb>
+				  
+				  
+				  [TEST] <als>
+				  Measuring light source...
+				  ALS reading: 4 lux
+				  [ERROR] Reading is outside valid range
+				  [FAIL] <als>
+				  
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect to it.
+				  2016-07-05_13:51:47_UTC-0700	  The RSSI value is -77 
+				  2016-07-05_13:51:47_UTC-0700	  
+				  [FAIL] RSSI signal is Poor.
+				  2016-07-05_13:51:47_UTC-0700	  DemoPeripheral CONNECTED. Now disconnect.
+				  DemoPeripheral DISCONNECTED.
+				  [PASS] <ble>
+				  
+				  
+				  [TEST] <mic>
+				  Disabled: 225 mV... OK
+				  Enabled: 1433 mV... OK
+				  Detect syllable... 2016-07-05_13:51:49_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  
+				  [TEST] <batt>
+				  Measuring battery voltage...
+				  2016-07-05_13:51:49_UTC-0700	  Battery voltage: 3874 mV
+				  Connect +5V to continue...
+				  2016-07-05_13:51:57_UTC-0700	  test stop
+				  [FAIL] <batt>
+				  
+				  > 2016-07-05_15:17:28_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 0.000V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Can not connect to target.
+				  Reset delay: 0 ms
+				  Reset type UNKNOWN: ???
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Writing target memory failed.
+				  Reset delay: 0 ms
+				  Reset type UNKNOWN: ???
+				  2016-07-05_15:17:41_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.972V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found SWD-DP with ID 0x0BB11477
+				  SWD speed too high. Reduced from 4000 kHz to 2700 kHz for stability
+				  
+				  ****** Error: DAP error while reading DP-Ctrl-Stat register.
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]050%]100%] Done.
+				  Verifying flash   [000%]100%] Done.
+				  J-Link: Flash download: Flash download skipped. Flash contents already match
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-07-05_15:17:47_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 88 mV... OK
+				  Enabled: 1432 mV... OK
+				  Detect syllable... 2016-07-05_15:17:51_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_15:18:02_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 223 mV... OK
+				  Enabled: 1433 mV... OK
+				  Detect syllable... 2016-07-05_15:18:06_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_15:18:13_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 227 mV... OK
+				  Enabled: 1432 mV... OK
+				  Detect syllable... 2016-07-05_15:18:17_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_15:18:21_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 235 mV... OK
+				  Enabled: 1433 mV... OK
+				  Detect syllable... 2016-07-05_15:18:23_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_15:18:31_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 227 mV... OK
+				  Enabled: 1432 mV... OK
+				  Detect syllable... 2016-07-05_15:18:32_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_15:18:41_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 225 mV... OK
+				  Enabled: 1432 mV... OK
+				  Detect syllable... 2016-07-05_15:18:43_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_15:20:11_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 233 mV... OK
+				  Enabled: 1432 mV... OK
+				  Detect syllable... 2016-07-05_15:20:15_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_15:20:19_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 233 mV... OK
+				  Enabled: 1434 mV... OK
+				  Detect syllable... 2016-07-05_15:20:23_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_15:22:59_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 234 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_15:23:04_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_15:23:08_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 235 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_15:23:13_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_15:25:21_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 239 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_15:25:26_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_15:25:34_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 229 mV... OK
+				  Enabled: 1441 mV... OK
+				  Detect syllable... 2016-07-05_15:25:39_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_15:25:44_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 232 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_15:25:47_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_15:25:53_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 230 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_15:25:57_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_15:26:17_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 231 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_15:26:20_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_15:26:30_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 228 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_15:26:35_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_15:26:40_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 231 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_15:26:44_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_15:27:24_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 236 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_15:27:28_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_15:32:42_UTC-0700	  2016-07-05_15:32:50_UTC-0700	  2016-07-05_15:32:58_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 228 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_15:33:01_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_15:51:57_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 238 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_15:52:02_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_15:58:55_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.972V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]050%]100%] Done.
+				  Verifying flash   [000%]100%] Done.
+				  J-Link: Flash download: Flash download skipped. Flash contents already match
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-07-05_15:59:01_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 175 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_15:59:04_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_15:59:08_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 233 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_15:59:11_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:00:25_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 237 mV... OK
+				  Enabled: 1442 mV... OK
+				  Detect syllable... 2016-07-05_16:00:29_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:00:33_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 235 mV... OK
+				  Enabled: 1441 mV... OK
+				  Detect syllable... 2016-07-05_16:00:35_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:00:39_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 234 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_16:00:40_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:00:45_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 233 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_16:00:46_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:00:54_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 229 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_16:00:56_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:01:04_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 228 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_16:01:06_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:03:25_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 237 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_16:03:28_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:09:43_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.972V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]050%]100%] Done.
+				  Verifying flash   [000%]100%] Done.
+				  J-Link: Flash download: Flash download skipped. Flash contents already match
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-07-05_16:09:47_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 214 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_16:09:52_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:09:56_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 236 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_16:10:01_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:11:22_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 237 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_16:11:23_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:11:27_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 234 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_16:11:29_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:40:27_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 236 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_16:40:31_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:40:38_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 228 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_16:40:39_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:41:53_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 235 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_16:41:56_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:42:01_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 229 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_16:42:02_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:42:07_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 231 mV... OK
+				  Enabled: 1441 mV... OK
+				  Detect syllable... 2016-07-05_16:42:08_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:45:53_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.971V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]050%]100%] Done.
+				  Verifying flash   [000%]100%] Done.
+				  J-Link: Flash download: Flash download skipped. Flash contents already match
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-07-05_16:45:58_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 241 mV... OK
+				  Enabled: 1438 mV... OK
+				  Detect syllable... 2016-07-05_16:46:01_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:46:06_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 230 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_16:46:07_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:46:07_UTC-0700	  [FAIL] dpot error2016-07-05_16:46:23_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 226 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_16:46:26_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:46:31_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 228 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_16:46:33_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:46:33_UTC-0700	  [FAIL] dpot error2016-07-05_16:46:37_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 233 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_16:46:38_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:46:38_UTC-0700	  [FAIL] dpot error2016-07-05_16:46:41_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 238 mV... OK
+				  Enabled: 1441 mV... OK
+				  Detect syllable... 2016-07-05_16:46:42_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:46:42_UTC-0700	  [FAIL] dpot error2016-07-05_16:46:45_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 239 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_16:46:46_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:46:46_UTC-0700	  [FAIL] dpot error2016-07-05_16:46:49_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 238 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_16:46:51_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:46:51_UTC-0700	  [FAIL] dpot error2016-07-05_16:46:54_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 237 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_16:46:55_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:46:55_UTC-0700	  [FAIL] dpot error2016-07-05_16:47:31_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 231 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_16:47:35_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:47:41_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 228 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_16:47:46_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:47:53_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 225 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_16:47:58_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:48:01_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 240 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_16:48:05_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:48:08_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 239 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_16:48:13_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:48:27_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 224 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_16:48:30_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:48:33_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 235 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_16:48:36_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:48:41_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 229 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_16:48:44_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:48:52_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 225 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_16:48:54_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:56:06_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.972V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]050%]100%] Done.
+				  Verifying flash   [000%]100%] Done.
+				  J-Link: Flash download: Flash download skipped. Flash contents already match
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-07-05_16:56:11_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 213 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_16:56:14_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:56:17_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 236 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_16:56:20_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_16:56:26_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_16:56:28_UTC-0700	  press
+				  2016-07-05_16:56:28_UTC-0700	  press
+				  2016-07-05_16:56:29_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_16:56:30_UTC-0700	  Verify GREEN led is ON and press button to continue...
+				  2016-07-05_16:56:30_UTC-0700	  Verify BLUE led is ON and press button to continue...
+				  2016-07-05_16:56:31_UTC-0700	  [PASS] <rgb>
+				  
+				  
+				  [TEST] <als>
+				  Measuring light source...
+				  ALS reading: 4 lux
+				  [ERROR] Reading is outside valid range
+				  [FAIL] <als>
+				  
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect to it.
+				  2016-07-05_16:56:38_UTC-0700	  The RSSI value is -85 
+				  2016-07-05_16:56:38_UTC-0700	  
+				  [FAIL] RSSI signal is Poor.
+				  2016-07-05_16:56:38_UTC-0700	  DemoPeripheral CONNECTED. Now disconnect.
+				  DemoPeripheral DISCONNECTED.
+				  [PASS] <ble>
+				  
+				  
+				  [TEST] <mic>
+				  Disabled: 226 mV... OK
+				  2016-07-05_16:56:39_UTC-0700	  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_16:56:42_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  
+				  [TEST] <batt>
+				  Measuring battery voltage...
+				  2016-07-05_16:56:42_UTC-0700	  Battery voltage: 3822 mV
+				  Connect +5V to continue...
+				  2016-07-05_16:56:47_UTC-0700	  test stop
+				  [FAIL] <batt>
+				  
+				  > 2016-07-05_16:56:50_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_16:56:51_UTC-0700	  press
+				  2016-07-05_16:56:52_UTC-0700	  press
+				  2016-07-05_16:56:52_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_16:56:53_UTC-0700	  Verify GREEN led is ON and press button to continue...
+				  2016-07-05_16:56:53_UTC-0700	  Verify BLUE led is ON and press button to continue...
+				  2016-07-05_16:56:54_UTC-0700	  [PASS] <rgb>
+				  
+				  
+				  [TEST] <als>
+				  Measuring light source...
+				  ALS reading: 4 lux
+				  [ERROR] Reading is outside valid range
+				  [FAIL] <als>
+				  
+				  
+				  [TEST2016-07-05_16:56:54_UTC-0700	  ] <ble>
+				  DemoPeripheral ADVERTISING. Connect to it.
+				  2016-07-05_16:57:06_UTC-0700	  test stop
+				  [FAIL] <ble>
+				  
+				  > 2016-07-05_16:57:09_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_16:57:10_UTC-0700	  press
+				  2016-07-05_16:57:11_UTC-0700	  press
+				  2016-07-05_16:57:11_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_16:57:12_UTC-0700	  Verify GREEN led is ON and press button to continue...
+				  2016-07-05_16:57:12_UTC-0700	  Verify BLUE led is ON an2016-07-05_16:57:12_UTC-0700	  d press button to continue...
+				  2016-07-05_16:57:12_UTC-0700	  [PASS] <rgb>
+				  
+				  
+				  [TEST] <als>
+				  Measuring light source...
+				  ALS reading: 4 lux
+				  [ERROR] Reading is outside valid range
+				  [FAIL] <als>
+				  
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect to it.
+				  2016-07-05_16:57:12_UTC-0700	  Ble is busy, please click Stop and try again.
+				  2016-07-05_16:57:20_UTC-0700	  test stop
+				  [FAIL] <ble>
+				  
+				  > 2016-07-05_16:57:22_UTC-0700	  test stop
+				  
+				  > 2016-07-05_16:57:25_UTC-0700	  test stop
+				  
+				  > 2016-07-05_16:57:27_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_16:57:28_UTC-0700	  press
+				  2016-07-05_16:57:28_UTC-0700	  press
+				  2016-07-05_16:57:29_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_16:57:29_UTC-0700	  Verify GREEN led is ON and press button to continue...
+				  2016-07-05_16:57:29_UTC-0700	  The RSSI value is -87 
+				  2016-07-05_16:57:29_UTC-0700	  
+				  [FAIL] RSSI signal is Poor.
+				  2016-07-05_16:57:30_UTC-0700	  Verify BLUE led is ON and press button to continue...
+				  2016-07-05_16:57:30_UTC-0700	  [PASS] <rgb>
+				  
+				  
+				  [TEST] <als>
+				  Measuring light source...
+				  ALS reading: 4 lux
+				  [ERROR] Reading is outside valid range
+				  [FAIL] <als>
+				  
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect to it.
+				  2016-07-05_16:57:45_UTC-0700	  The RSSI value is -87 
+				  2016-07-05_16:57:45_UTC-0700	  
+				  [FAIL] RSSI signal is Poor.
+				  2016-07-05_16:57:45_UTC-0700	  test stop
+				  [FAIL] <ble>
+				  
+				  > 2016-07-05_16:57:48_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_16:57:49_UTC-0700	  press
+				  2016-07-05_16:57:50_UTC-0700	  press
+				  2016-07-05_16:57:51_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_16:57:51_UTC-0700	  Verify GREEN led is ON and press button to continue...
+				  2016-07-05_16:57:52_UTC-0700	  Verify BLUE led is ON and press button to continue...
+				  2016-07-05_16:57:52_UTC-0700	  [PASS] <rgb>
+				  
+				  
+				  [TEST] <als>
+				  Measuring light source...
+				  ALS reading: 4 lux
+				  [ERROR] Reading is outside valid range
+				  [FAIL] <als>
+				  
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect t2016-07-05_16:58:08_UTC-0700	  test stop
+				  [FAIL] <ble>
+				  
+				  > 2016-07-05_16:58:12_UTC-0700	  test stop
+				  
+				  > 2016-07-05_16:58:14_UTC-0700	  test stop
+				  
+				  > 2016-07-05_16:58:23_UTC-0700	  The RSSI value is -86 
+				  2016-07-05_16:58:23_UTC-0700	  
+				  [FAIL] RSSI signal is Poor.
+				  2016-07-05_17:00:26_UTC-0700	  test stop
+				  
+				  > 2016-07-05_17:00:29_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_17:00:32_UTC-0700	  press
+				  2016-07-05_17:00:32_UTC-0700	  press
+				  2016-07-05_17:00:33_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_17:00:33_UTC-0700	  Verify GREEN l2016-07-05_17:00:33_UTC-0700	  ed is ON and press button to continue...
+				  2016-07-05_17:00:34_UTC-0700	  Verify BLUE led is ON and press button to continue...
+				  2016-07-05_17:00:34_UTC-0700	  [PASS] <rgb>
+				  
+				  
+				  [TEST] <als>
+				  Measuring light source...
+				  ALS reading: 4 lux
+				  [ERROR] Reading is outside valid range
+				  [FAIL] <als>
+				  
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect to it.
+				  2016-07-05_17:00:44_UTC-0700	  The RSSI value is -85 
+				  2016-07-05_17:00:44_UTC-0700	  
+				  [FAIL] RSSI signal is Poor.
+				  2016-07-05_17:00:44_UTC-0700	  DemoPeripheral CONNECTED. Now disconnect.
+				  DemoPeripheral DISCONNECTED.
+				  [PASS] <ble>
+				  
+				  
+				  [TEST] <mic>
+				  Disabled: 235 mV... OK
+				  2016-07-05_17:00:44_UTC-0700	  Enabled: 1438 mV... OK
+				  Detect syllable... 2016-07-05_17:00:47_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  
+				  [TEST] <batt>
+				  Measuring battery voltage...
+				  2016-07-05_17:00:48_UTC-0700	  Battery voltage: 3822 mV
+				  Connect +5V to continue...
+				  2016-07-05_17:00:52_UTC-0700	  test stop
+				  [FAIL] <batt>
+				  
+				  > 2016-07-05_17:01:30_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 233 mV... OK
+				  Enabled: 1438 mV... OK
+				  Detect syllable... 2016-07-05_17:01:31_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_17:01:31_UTC-0700	  [FAIL] dpot error2016-07-05_17:01:42_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_17:01:44_UTC-0700	  press
+				  2016-07-05_17:01:45_UTC-0700	  press
+				  2016-07-05_17:01:45_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_17:01:45_UTC-0700	  Verify GREEN led is ON and press button to continue...
+				  2016-07-05_17:01:46_UTC-0700	  Verify BLUE led is ON and press button to continue...
+				  2016-07-05_17:01:46_UTC-0700	  [PASS] <rgb>
+				  
+				  
+				  [TEST] <als>
+				  Measuring light source...
+				  ALS reading: 4 lux
+				  [ERROR] Reading is outside valid range
+				  [FAIL] <als>
+				  
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect to it.
+				  2016-07-05_17:02:02_UTC-0700	  test stop
+				  [FAIL] <ble>
+				  
+				  > 2016-07-05_17:02:06_UTC-0700	  test stop
+				  
+				  > 2016-07-05_17:02:09_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_17:02:10_UTC-0700	  The RSSI value is -88 
+				  2016-07-05_17:02:10_UTC-0700	  
+				  [FAIL] RSSI signal is Poor.
+				  2016-07-05_17:02:12_UTC-0700	  press
+				  2016-07-05_17:02:12_UTC-0700	  press
+				  2016-07-05_17:02:12_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_17:02:13_UTC-0700	  Verify GREEN led is ON and press button to continue...
+				  2016-07-05_17:02:14_UTC-0700	  Vfy LUElisOand pbuttn  connue...2016-07-05_17:02:14_UTC-0700	  eriB ed  N ress ototi
+				  2016-07-05_17:02:14_UTC-0700	  PASS]>
+				  TES <as>
+				  Masug lsoce.
+				  ALS din4 luxERRR]eang isutdevalirang
+				  I <als>[TST<b>
+				  Dmoral AVIS.oncto 
+				  2016-07-05_17:02:14_UTC-0700	  [ <rgb
+				  
+				  [T]lerinight ur..reag: 
+				  [O Rdi osi d e[FAL]
+				  
+				  
+				  E] leePeripheDERTING Cnet it.2016-07-05_17:02:23_UTC-0700	  test stop
+				  [FAIL] <ble>
+				  
+				  > 2016-07-05_17:02:26_UTC-0700	  test stop
+				  
+				  > 2016-07-05_17:02:28_UTC-0700	  test stop
+				  
+				  > 2016-07-05_17:02:31_UTC-0700	  test stop
+				  
+				  > 2016-07-05_17:02:33_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_17:02:35_UTC-0700	  press
+				  2016-07-05_17:02:35_UTC-0700	  press
+				  2016-07-05_17:02:36_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_17:02:36_UTC-0700	  Verify GREEN led is ON and press button to continue...
+				  2016-07-05_17:02:37_UTC-0700	  Verify BLUE led is ON and press button to continue...
+				  2016-07-05_17:02:38_UTC-0700	  [PASS] <rgb>
+				  
+				  
+				  [TEST] <als>
+				  Measuring light source...
+				  ALS reading: 4 lux
+				  [ERROR] Reading is outside valid range
+				  [FAIL] <als>
+				  
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect to it.
+				  2016-07-05_17:02:46_UTC-0700	  The RSSI value is -85 
+				  2016-07-05_17:02:46_UTC-0700	  
+				  [FAIL] RSSI signal is Poor.
+				  2016-07-05_17:02:46_UTC-0700	  DemoPeripheral CONNECTED. Now disconnect.
+				  DemoPeripheral DISCONNECTED.
+				  [PASS] <ble>
+				  
+				  
+				  [TEST] <mic>
+				  Disabled: 234 mV... OK
+				  2016-07-05_17:02:46_UTC-0700	  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_17:05:33_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.972V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]050%]100%] Done.
+				  Verifying flash   [000%]100%] Done.
+				  J-Link: Flash download: Flash download skipped. Flash contents already match
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-07-05_17:05:38_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 242 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_17:05:40_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_17:05:40_UTC-0700	  [FAIL] dpot error2016-07-05_17:05:52_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_17:05:56_UTC-0700	  press
+				  2016-07-05_17:05:57_UTC-0700	  press
+				  2016-07-05_17:05:57_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_17:05:58_UTC-0700	  Verify GREEN led is ON and press button to continue...
+				  2016-07-05_17:05:58_UTC-0700	  Verify BLUE led is ON and press button to continue...
+				  2016-07-05_17:05:59_UTC-0700	  [PASS] <rgb>
+				  
+				  
+				  [TEST] <als>
+				  Measuring light source...
+				  ALS reading: 4 lux
+				  [ERROR] Reading is outside valid range
+				  [FAIL] <als>
+				  
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect t2016-07-05_17:06:15_UTC-0700	  The RSSI value is 0 
+				  2016-07-05_17:06:15_UTC-0700	  o it.
+				  2016-07-05_17:06:15_UTC-0700	  test stop
+				  [FAIL] <ble>
+				  
+				  > 2016-07-05_17:06:19_UTC-0700	  test stop
+				  
+				  > 2016-07-05_17:06:22_UTC-0700	  test stop
+				  
+				  > 2016-07-05_17:06:24_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_17:06:26_UTC-0700	  press
+				  2016-07-05_17:06:26_UTC-0700	  press
+				  2016-07-05_17:06:27_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_17:06:27_UTC-0700	  Verify GREEN led is ON and press button to continue...
+				  2016-07-05_17:06:28_UTC-0700	  Verify BLUE led is ON and press button to continue...
+				  2016-07-05_17:06:28_UTC-0700	  [PASS] <rgb>
+				  
+				  
+				  [TEST] <als>
+				  Measuring light source...
+				  ALS reading: 4 lux
+				  [ERROR] Reading is outside valid range
+				  [FAIL] <als>
+				  
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect to it.
+				  2016-07-05_17:06:38_UTC-0700	  The RSSI value is -87 
+				  2016-07-05_17:06:38_UTC-0700	  
+				  [FAIL] RSSI signal is Poor.
+				  2016-07-05_17:06:38_UTC-0700	  DemoPeripheral CONNECTED. Now disconnect.
+				  DemoPeripheral DISCONNECTED.
+				  [PASS] <ble>
+				  
+				  
+				  [TEST] <mic>
+				  Disabled: 234 mV... OK
+				  2016-07-05_17:06:39_UTC-0700	  Enabled: 1438 mV... OK
+				  Detect syllable... 2016-07-05_17:09:08_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.971V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]050%]100%] Done.
+				  Verifying flash   [000%]100%] Done.
+				  J-Link: Flash download: Flash download skipped. Flash contents already match
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-07-05_17:09:17_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 242 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_17:09:19_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_17:09:19_UTC-0700	  [FAIL] dpot error2016-07-05_17:09:30_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_17:09:30_UTC-0700	  press
+				  2016-07-05_17:09:31_UTC-0700	  press
+				  2016-07-05_17:09:31_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_17:09:32_UTC-0700	  Verify GREEN led is ON and press button to continue...
+				  2016-07-05_17:09:32_UTC-0700	  Verify BLUE led is ON and press button to continue...
+				  2016-07-05_17:09:33_UTC-0700	  [PASS] <rgb>
+				  
+				  
+				  [TEST] <als>
+				  Measuring light source...
+				  ALS reading: 4 lux
+				  [ERROR] Reading is outside valid range
+				  [FAIL] <als>
+				  
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect to it.
+				  2016-07-05_17:09:40_UTC-0700	  The RSSI value is -85 
+				  2016-07-05_17:09:40_UTC-0700	  
+				  [FAIL] RSSI signal is Poor.
+				  2016-07-05_17:09:40_UTC-0700	  DemoPeripheral CONNECTED. Now disconnect.
+				  DemoPeripheral DISCONNECTED.
+				  [PASS] <ble>
+				  
+				  
+				  [TEST] <mic>
+				  Disabled: 229 mV... OK
+				  2016-07-05_17:09:40_UTC-0700	  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_17:09:42_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  
+				  [TEST] <batt>
+				  Measuring battery voltage...
+				  2016-07-05_17:09:42_UTC-0700	  [FAIL] dpot error2016-07-05_17:09:59_UTC-0700	  test all
+				  
+				  > 2016-07-05_17:10:03_UTC-0700	  test stop
+				  [FAIL] <batt>
+				  
+				  > 2016-07-05_17:10:08_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_17:10:11_UTC-0700	  press
+				  2016-07-05_17:10:11_UTC-0700	  press
+				  2016-07-05_17:10:11_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_17:10:17_UTC-0700	  test stop
+				  [FAIL] <rgb>
+				  
+				  > 2016-07-05_17:11:02_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_17:11:04_UTC-0700	  press
+				  2016-07-05_17:11:05_UTC-0700	  press
+				  2016-07-05_17:11:05_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_17:11:05_UTC-0700	  Verify GREEN led is ON and press button to continue...
+				  2016-07-05_17:11:06_UTC-0700	  Verify BLUE led is ON and press button to continue...
+				  2016-07-05_17:11:07_UTC-0700	  [PASS] <rgb>
+				  
+				  
+				  [TEST] <als>
+				  Measuring light source...
+				  ALS reading: 4 lux
+				  [ERROR] Reading is outside valid range
+				  [FAIL] <als>
+				  
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect to it.
+				  2016-07-05_17:11:18_UTC-0700	  The RSSI value is -85 
+				  2016-07-05_17:11:18_UTC-0700	  
+				  [FAIL] RSSI signal is Poor.
+				  2016-07-05_17:11:19_UTC-0700	  DemoPeripheral CONNECTED. Now disconnect.
+				  DemoPeripheral DISCONNECTED.
+				  [PASS] <ble>
+				  
+				  
+				  [TEST] <mic>
+				  Disabled: 236 mV... OK
+				  2016-07-05_17:11:19_UTC-0700	  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_17:11:21_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  
+				  [TEST] <batt>
+				  Measuring battery voltage...
+				  2016-07-05_17:11:21_UTC-0700	  [FAIL] dpot error2016-07-05_17:12:43_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.972V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]050%]100%] Done.
+				  Verifying flash   [000%]100%] Done.
+				  J-Link: Flash download: Flash download skipped. Flash contents already match
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-07-05_17:12:48_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_17:12:50_UTC-0700	  press
+				  2016-07-05_17:12:50_UTC-0700	  press
+				  2016-07-05_17:12:50_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_17:12:50_UTC-0700	  Verify GREEN led is ON and press button to continue...
+				  2016-07-05_17:12:51_UTC-0700	  Verify BLUE led is ON and press button to continue...
+				  2016-07-05_17:12:51_UTC-0700	  [PASS] <rgb>
+				  
+				  
+				  [TEST] <als>
+				  Measuring light source...
+				  ALS reading: 4 lux
+				  [ERROR] Reading is outside valid range
+				  [FAIL] <als>
+				  
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect to it.
+				  2016-07-05_17:13:06_UTC-0700	  The RSSI value is -81 
+				  2016-07-05_17:13:06_UTC-0700	  
+				  [FAIL] RSSI signal is Poor.
+				  2016-07-05_17:13:06_UTC-0700	  DemoPeripheral CONNECTED. Now disconnect.
+				  DemoPeripheral DISCONNECTED.
+				  [PASS] <ble>
+				  
+				  
+				  [TEST] <mic>
+				  Disabled: 235 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_17:13:08_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  
+				  [TEST] <batt>
+				  Measuring battery voltage...
+				  2016-07-05_17:13:08_UTC-0700	  [FAIL] dpot error2016-07-05_17:13:10_UTC-0700	  Battery voltage: 3822 mV
+				  Connect +5V to continue...
+				  2016-07-05_17:13:15_UTC-0700	  Disconnect +5V to continue...
+				  2016-07-05_17:13:16_UTC-0700	  [PASS] <batt>
+				  
+				  
+				  [TEST] <axl>
+				  Accelerometer ON
+				  Press button to make measurement.
+				  whoami: 0x33
+				  z-axis: 2016-07-05_17:13:23_UTC-0700	  test stop
+				  [FAIL] <axl>
+				  
+				  > 2016-07-05_17:13:39_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_17:13:40_UTC-0700	  press
+				  2016-07-05_17:13:41_UTC-0700	  press
+				  2016-07-05_17:13:41_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_17:13:41_UTC-0700	  Verify GREEN led is ON and press button to continue...
+				  2016-07-05_17:13:42_UTC-0700	  Verify BLUE led is ON and press button to continue...
+				  2016-07-05_17:13:42_UTC-0700	  [PASS] <rgb>
+				  
+				  
+				  [TEST] <als>
+				  Measuring light source...
+				  ALS reading: 4 lux
+				  [ERROR] Reading is outside valid range
+				  [FAIL] <als>
+				  
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect to it.
+				  2016-07-05_17:13:52_UTC-0700	  The RSSI value is -88 
+				  2016-07-05_17:13:52_UTC-0700	  
+				  [FAIL] RSSI signal is Poor.
+				  2016-07-05_17:13:52_UTC-0700	  DemoPeripheral CONNECTED. Now disconnect.
+				  DemoPeripheral DISCONNECTED.
+				  [PASS] <ble>
+				  
+				  
+				  [TEST] <mic>
+				  Disabled: 233 mV... OK
+				  2016-07-05_17:13:52_UTC-0700	  Enabled: 1441 mV... OK
+				  Detect syllable... 2016-07-05_17:13:54_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  
+				  [TEST] <batt>
+				  Measuring battery voltage...
+				  2016-07-05_17:13:54_UTC-0700	  [FAIL] dpot error2016-07-05_17:13:55_UTC-0700	  Battery voltage: 3822 mV
+				  Connect +5V to continue...
+				  2016-07-05_17:13:59_UTC-0700	  Disconnect +5V to continue...
+				  2016-07-05_17:14:00_UTC-0700	  [PASS] <batt>
+				  
+				  
+				  [TEST] <axl>
+				  Accelerometer ON
+				  Press button to make measurement.
+				  whoami: 0x33
+				  z-axis: 2016-07-05_17:14:04_UTC-0700	  test stop
+				  [FAIL] <axl>
+				  
+				  > 2016-07-05_17:14:09_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 227 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_17:14:10_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_17:14:10_UTC-0700	  [FAIL] dpot error2016-07-05_17:14:14_UTC-0700	  test stop
+				  
+				  > 2016-07-05_17:41:51_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.972V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]050%]100%] Done.
+				  Verifying flash   [000%]100%] Done.
+				  J-Link: Flash download: Flash download skipped. Flash contents already match
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-07-05_17:41:57_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 246 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_17:41:59_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_17:42:02_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 238 mV... OK
+				  Enabled: 1441 mV... OK
+				  Detect syllable... 2016-07-05_17:42:05_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_17:42:26_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 229 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_17:42:29_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_17:42:59_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 231 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_17:43:01_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_17:43:01_UTC-0700	  [FAIL] dpot error.
+				  2016-07-05_17:43:05_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 233 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_17:43:06_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_17:43:06_UTC-0700	  [FAIL] dpot error.
+				  2016-07-05_17:43:11_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 230 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_17:43:13_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_17:43:13_UTC-0700	  [FAIL] dpot error.
+				  2016-07-05_17:50:06_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 234 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_17:50:11_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_17:50:18_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_17:50:20_UTC-0700	  press
+				  2016-07-05_17:50:21_UTC-0700	  press
+				  2016-07-05_17:50:21_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_17:50:22_UTC-0700	  Verify GREEN led is ON and press button to continue...
+				  2016-07-05_17:50:23_UTC-0700	  Verify BLUE 2016-07-05_17:50:23_UTC-0700	  led is ON and press button to continue...
+				  2016-07-05_17:50:24_UTC-0700	  [PASS] <rgb>
+				  
+				  
+				  [TEST] <als>
+				  Measuring light source...
+				  ALS reading: 4 lux
+				  [ERROR] Reading is outside valid range
+				  [FAIL] <als>
+				  
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect to it.
+				  2016-07-05_17:51:07_UTC-0700	  test stop
+				  [FAIL] <batt>
+				  
+				  > 2016-07-05_17:51:11_UTC-0700	  test stop
+				  
+				  > 2016-07-05_17:51:14_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_17:51:16_UTC-0700	  press
+				  2016-07-05_17:51:17_UTC-0700	  press
+				  2016-07-05_17:51:17_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_17:51:18_UTC-0700	  Verify GREEN led is ON and press button to continue...
+				  2016-07-05_17:51:18_UTC-0700	  Verify BLUE led is ON and press button to continue...
+				  2016-07-05_17:51:19_UTC-0700	  [PASS] <rgb>
+				  
+				  
+				  [TEST] <als>
+				  Measuring light source...
+				  ALS reading: 4 lux
+				  [ERROR] Reading is outside valid range
+				  [FAIL] <als>
+				  
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect to it.
+				  2016-07-05_17:51:19_UTC-0700	  Ble is busy, please click Stop and try again.
+				  2016-07-05_17:51:24_UTC-0700	  test stop
+				  [FAIL] <ble>
+				  
+				  > 2016-07-05_17:51:28_UTC-0700	  test stop
+				  
+				  > 2016-07-05_17:51:31_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_17:51:31_UTC-0700	  press
+				  2016-07-05_17:51:32_UTC-0700	  The RSSI value is -85 
+				  2016-07-05_17:51:32_UTC-0700	  
+				  [FAIL] RSSI signal is Poor.
+				  2016-07-05_17:51:32_UTC-0700	  press
+				  2016-07-05_17:51:32_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_17:51:33_UTC-0700	  VeyEN l N and prs utto coinue..
+				  2016-07-05_17:51:33_UTC-0700	  Verify BLUE led is ON and press button to continue...
+				  2016-07-05_17:51:34_UTC-0700	  [PASS] <rgb>
+				  
+				  
+				  [TEST] <als>
+				  Measuring light source...
+				  ALS reading: 4 lux
+				  [ERROR] Reading is outside valid range
+				  [FAIL] <als>
+				  
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect t2016-07-05_17:51:47_UTC-0700	  The RSSI value is -87 
+				  2016-07-05_17:51:47_UTC-0700	  
+				  [FAIL] RSSI signal is Poor.
+				  2016-07-05_17:51:47_UTC-0700	  o it.
+				  DemoPeripheral CONNECTED. Now disconnect.
+				  DemoPeripheral DISCONNECTED.
+				  [PASS] <ble>
+				  
+				  
+				  [TEST] <mic>
+				  Disabled: 230 mV... OK
+				  2016-07-05_17:51:48_UTC-0700	  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_17:51:53_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  
+				  [TEST] <batt>
+				  Measuring battery voltage...
+				  2016-07-05_17:51:53_UTC-0700	  Battery voltage: 3822 mV
+				  Connect +5V to continue...
+				  2016-07-05_17:51:56_UTC-0700	  test stop
+				  [FAIL] <batt>
+				  
+				  > 2016-07-05_17:52:24_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_17:52:27_UTC-0700	  test stop
+				  [FAIL] <button>
+				  
+				  > 2016-07-05_17:52:30_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_17:52:30_UTC-0700	  press
+				  2016-07-05_17:52:31_UTC-0700	  press
+				  2016-07-05_17:52:31_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_17:52:32_UTC-0700	  Verify GREEN led is ON and press button to continue...
+				  2016-07-05_17:52:32_UTC-0700	  Verify BLUE led is ON and press button to continue...
+				  2016-07-05_17:52:33_UTC-0700	  [PASS] <rgb>
+				  
+				  
+				  [TEST] <als>
+				  Measuring light source...
+				  ALS reading: 4 lux
+				  [ERROR] Reading is outside valid range
+				  [FAIL] <als>
+				  
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect to it.
+				  2016-07-05_17:52:41_UTC-0700	  The RSSI value is -81 
+				  2016-07-05_17:52:42_UTC-0700	  
+				  [FAIL] RSSI signal is Poor.
+				  2016-07-05_17:52:42_UTC-0700	  DemoPeripheral CONNECTED. Now disconnect.
+				  DemoPeripheral DISCONNECTED.
+				  [PASS] <ble>
+				  
+				  
+				  [TEST] <mic>
+				  Disabled: 230 mV... OK
+				  2016-07-05_17:52:42_UTC-0700	  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_17:52:44_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  
+				  [TEST] <batt>
+				  Measuring battery voltage...
+				  2016-07-05_17:52:44_UTC-0700	  [FAIL] dpot error.
+				  2016-07-05_17:52:45_UTC-0700	  Battery voltage: 3822 mV
+				  Connect +5V to continue...
+				  2016-07-05_17:52:54_UTC-0700	  test stop
+				  [FAIL] <batt>
+				  
+				  > 2016-07-05_17:53:59_UTC-0700	  test stop
+				  
+				  > 2016-07-05_18:00:38_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.972V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]050%]100%] Done.
+				  Verifying flash   [000%]100%] Done.
+				  J-Link: Flash download: Flash download skipped. Flash contents already match
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-07-05_18:00:42_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 231 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_18:00:44_UTC-0700	  [FAIL] dpot error.
+				  2016-07-05_18:00:44_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_18:01:40_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.971V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]050%]100%] Done.
+				  Verifying flash   [000%]100%] Done.
+				  J-Link: Flash download: Flash download skipped. Flash contents already match
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-07-05_18:01:47_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 230 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_18:01:48_UTC-0700	  
+				  [FAIL] dpot error.
+				  2016-07-05_18:01:48_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_18:02:04_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_18:02:07_UTC-0700	  press
+				  2016-07-05_18:02:07_UTC-0700	  press
+				  2016-07-05_18:02:08_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_18:02:08_UTC-0700	  Verify GREEN led is ON and press button to continue...
+				  2016-07-05_18:02:08_UTC-0700	  V2016-07-05_18:02:08_UTC-0700	  erify BLUE led is ON and press button to continue...
+				  2016-07-05_18:02:09_UTC-0700	  [PASS] <rgb>
+				  
+				  
+				  [TEST] <als>
+				  Measuring light source...
+				  ALS reading: 4 lux
+				  [ERROR] Reading is outside valid range
+				  [FAIL] <als>
+				  
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect to it.
+				  2016-07-05_18:02:17_UTC-0700	  The RSSI value is -84 
+				  2016-07-05_18:02:17_UTC-0700	  
+				  [FAIL] RSSI signal is Poor.
+				  2016-07-05_18:02:17_UTC-0700	  DemoPeripheral CONNECTED. Now disconnect.
+				  DemoPeripheral DISCONNECTED.
+				  [PASS] <ble>
+				  
+				  
+				  [TEST] <mic>
+				  Disabled: 223 mV... OK
+				  2016-07-05_18:02:17_UTC-0700	  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_18:02:19_UTC-0700	  
+				  [FAIL] dpot error.
+				  2016-07-05_18:02:19_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  
+				  [TEST] <batt>
+				  Measuring battery voltage...
+				  2016-07-05_18:02:20_UTC-0700	  Battery voltage: 3822 mV
+				  Connect +5V to continue...
+				  2016-07-05_18:02:27_UTC-0700	  test stop
+				  [FAIL] <batt>
+				  
+				  > 2016-07-05_18:02:53_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.971V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/ab-v1.1.4.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]000%]045%]045%]095%]095%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]050%]050%]055%]055%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]070%]070%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]090%]090%]090%]090%]095%]095%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (86016 bytes)
+				  J-Link: Flash download: Total time needed: 2.114s (Prepare: 0.056s, Compare: 0.012s, Erase: 1.418s, Program: 0.617s, Verify: 0.005s, Restore: 0.003s)
+				  O.K.
+				  10001080 = 30315354 00C2D011 57116B7B 
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  --- {Session END} ---
+2016-07-05_18:04:33_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 218 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_18:04:38_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_18:04:44_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_18:04:45_UTC-0700	  press
+				  2016-07-05_18:04:46_UTC-0700	  press
+				  2016-07-05_18:04:46_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_18:04:47_UTC-0700	  Verify GREEN led is ON and press button to continue...
+				  2016-07-05_18:04:47_UTC-0700	  Verify BLUE led is ON and press button to continue...
+				  2016-07-05_18:04:47_UTC-0700	  [PASS] <rgb>
+				  
+				  
+				  [TEST] <als>
+				  Measuring light source...
+				  ALS reading: 4 lux
+				  [ERROR] Reading is outside valid range
+				  [FAIL] <als>
+				  
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect to it.
+				  2016-07-05_18:04:56_UTC-0700	  The RSSI value is -88 
+				  2016-07-05_18:04:56_UTC-0700	  
+				  [FAIL] RSSI signal is Poor.
+				  2016-07-05_18:04:56_UTC-0700	  DemoPeripheral CONNECTED. Now disconnect.
+				  DemoPeripheral DISCONNECTED.
+				  [PASS] <ble>
+				  
+				  
+				  [TEST] <mic>
+				  Disabled: 217 mV... OK
+				  2016-07-05_18:04:56_UTC-0700	  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_18:05:01_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  
+				  [TEST] <batt>
+				  Measuring battery voltage...
+				  2016-07-05_18:05:02_UTC-0700	  Battery voltage: 3822 mV
+				  Connect +5V to continue...
+				  2016-07-05_18:05:06_UTC-0700	  test stop
+				  [FAIL] <batt>
+				  
+				  > 2016-07-05_18:05:55_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 219 mV... OK
+				  Enabled: 1441 mV... OK
+				  Detect syllable... 2016-07-05_18:05:58_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_18:06:04_UTC-0700	  test all
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-07-05_18:06:04_UTC-0700	  press
+				  2016-07-05_18:06:04_UTC-0700	  press
+				  2016-07-05_18:06:05_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  
+				  [TEST] <rgb>
+				  Verify RED led is ON and press button to continue...
+				  2016-07-05_18:06:05_UTC-0700	  Verify GREEN led is ON and press button to continue...
+				  2016-07-05_18:06:05_UTC-0700	  Verify B2016-07-05_18:06:06_UTC-0700	  LUE led is ON and press button to continue...
+				  2016-07-05_18:06:06_UTC-0700	  [PASS] <rgb>
+				  
+				  
+				  [TEST] <als>
+				  Measuring light source...
+				  ALS reading: 4 lux
+				  [ERROR] Reading is outside valid range
+				  [FAIL] <als>
+				  
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect to it.
+				  2016-07-05_18:06:14_UTC-0700	  The RSSI value is -79 
+				  2016-07-05_18:06:14_UTC-0700	  
+				  [FAIL] RSSI signal is Poor.
+				  2016-07-05_18:06:14_UTC-0700	  DemoPeripheral CONNECTED. Now disconnect.
+				  DemoPeripheral DISCONNECTED.
+				  [PASS] <ble>
+				  
+				  
+				  [TEST] <mic>
+				  Disabled: 218 mV... OK
+				  2016-07-05_18:06:14_UTC-0700	  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_18:06:17_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  
+				  [TEST] <batt>
+				  Measuring battery voltage...
+				  2016-07-05_18:06:17_UTC-0700	  Battery voltage: 3822 mV
+				  Connect +5V to continue...
+				  2016-07-05_18:06:22_UTC-0700	  test stop
+				  [FAIL] <batt>
+				  
+				  > 2016-07-05_18:15:02_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.972V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]050%]100%] Done.
+				  Verifying flash   [000%]100%] Done.
+				  J-Link: Flash download: Flash download skipped. Flash contents already match
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-07-05_18:15:27_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 222 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_18:15:30_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_18:15:37_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 224 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_18:15:39_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_18:15:51_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 218 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_18:15:53_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_18:15:56_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 236 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_18:15:59_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_18:16:04_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 228 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_18:16:09_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_18:16:12_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 238 mV... OK
+				  Enabled: 1441 mV... OK
+				  Detect syllable... 2016-07-05_18:16:14_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_18:16:52_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 222 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_18:16:57_UTC-0700	  NG
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_18:17:02_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 229 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_18:17:05_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_18:29:46_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 0.000V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Can not connect to target.
+				  Reset delay: 0 ms
+				  Reset type UNKNOWN: ???
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Writing target memory failed.
+				  Reset delay: 0 ms
+				  Reset type UNKNOWN: ???
+				  2016-07-05_18:29:56_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.972V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]050%]100%] Done.
+				  Verifying flash   [000%]100%] Done.
+				  J-Link: Flash download: Flash download skipped. Flash contents already match
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-07-05_18:30:01_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 82 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_18:30:04_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_18:30:08_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 237 mV... OK
+				  Enabled: 1440 mV... OK
+				  Detect syllable... 2016-07-05_18:30:10_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_18:31:33_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.972V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]050%]100%] Done.
+				  Verifying flash   [000%]100%] Done.
+				  J-Link: Flash download: Flash download skipped. Flash contents already match
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-07-05_18:31:40_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 226 mV... OK
+				  Enabled: 1438 mV... OK
+				  Detect syllable... 2016-07-05_18:31:42_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  2016-07-05_18:31:49_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 224 mV... OK
+				  Enabled: 1439 mV... OK
+				  Detect syllable... 2016-07-05_18:31:52_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  --- {Session Start} Lot Name: "00C2D011", TimeStamp: "0x57116b7b" ---
+2016-07-05_18:31:58_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.972V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  10001080 = 30315354 00C2D011 57116B7B 
+				  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.972V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000002 -> 4001E504
+				  Writing 00000001 -> 4001E50C
+				  Sleep(50)
+				  2016-07-05_18:31:59_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.972V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Writing 30315354 -> 10001080
+				  Writing 00C2D011 -> 10001084
+				  Writing 57116B7B -> 10001088
+				  Writing 0003C000 -> 10001014
+				  Writing 00000001 -> 0003FC00
+				  J-Link: Flash download: Flash programming performed for 2 ranges (2048 bytes)
+				  J-Link: Flash download: Total time needed: 0.072s (Prepare: 0.056s, Compare: 0.003s, Erase: 0.000s, Program: 0.006s, Verify: 0.001s, Restore: 0.003s)
+				  2016-07-05_18:32:02_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.972V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/s130-v2.0.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]000%]000%]005%]005%]005%]005%]005%]005%]010%]010%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]020%]020%]025%]025%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]035%]035%]040%]040%]040%]040%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]050%]050%]055%]055%]055%]055%]055%]055%]060%]060%]060%]060%]060%]060%]065%]065%]065%]065%]070%]070%]070%]070%]070%]070%]075%]075%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]085%]085%]090%]090%]090%]090%]090%]090%]095%]095%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (110592 bytes)
+				  J-Link: Flash download: Total time needed: 0.888s (Prepare: 0.053s, Compare: 0.020s, Erase: 0.000s, Program: 0.803s, Verify: 0.007s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-07-05_18:32:03_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.969V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/abt-tester.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]090%]090%]090%]090%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (67584 bytes)
+				  J-Link: Flash download: Total time needed: 0.567s (Prepare: 0.052s, Compare: 0.013s, Erase: 0.000s, Program: 0.493s, Verify: 0.004s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-07-05_18:32:06_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.972V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]005%]005%]010%]010%]010%]010%]015%]015%]020%]020%]020%]020%]025%]025%]030%]030%]030%]030%]035%]035%]040%]040%]040%]040%]045%]045%]050%]050%]050%]050%]055%]055%]060%]060%]060%]060%]065%]065%]070%]070%]070%]070%]075%]075%]080%]080%]080%]080%]085%]085%]090%]090%]090%]090%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (15360 bytes)
+				  J-Link: Flash download: Total time needed: 0.210s (Prepare: 0.053s, Compare: 0.004s, Erase: 0.000s, Program: 0.147s, Verify: 0.000s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-07-05_18:32:10_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  Disabled: 224 mV... OK
+				  Enabled: 1432 mV... OK
+				  Detect syllable... 2016-07-05_18:32:13_UTC-0700	  OK
+				  [PASS] <mic>
+				  
+				  [END]
+				  
+				  

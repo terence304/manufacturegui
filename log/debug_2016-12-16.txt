@@ -1,0 +1,3 @@
+2016-12-16_11:52:32_UTC-0800	  
+				  Please check UART port connection and selection
+				  

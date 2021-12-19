@@ -1,0 +1,5 @@
+('../build/testgui_app/Adafruit_BluefruitLE-0.9.0-py2.7.egg',
+ None,
+ set(['*.py', '*.pyc', '*.pyd', '*.pyo', '*.so', 'EGG-INFO']),
+ 'DATA',
+ [])

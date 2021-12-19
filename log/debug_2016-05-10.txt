@@ -1,0 +1,2601 @@
+2016-05-10_09:17:29_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.972V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]050%]100%] Done.
+				  Verifying flash   [000%]100%] Done.
+				  J-Link: Flash download: Flash download skipped. Flash contents already match
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_09:17:35_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  2016-05-10_09:17:39_UTC-0700	  Detecting syllables....2016-05-10_09:17:39_UTC-0700	  
+				  actual: 0, expected: 5
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-05-10_09:17:44_UTC-0700	  test mic
+				  
+				  > 
+				  
+				  [TEST] <mic>
+				  2016-05-10_09:17:48_UTC-0700	  Detecting syllables....2016-05-10_09:17:48_UTC-0700	  
+				  actual: 0, expected: 5
+				  [FAIL] <mic>
+				  
+				  [END]
+				  
+				  2016-05-10_09:17:59_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.974V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/ab-v1.1.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]000%]045%]045%]095%]095%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]055%]055%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]065%]065%]070%]070%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]090%]090%]090%]090%]095%]095%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (84992 bytes)
+				  J-Link: Flash download: Total time needed: 2.099s (Prepare: 0.057s, Compare: 0.012s, Erase: 1.409s, Program: 0.611s, Verify: 0.005s, Restore: 0.003s)
+				  O.K.
+				  10001080 = 30315354 00C2D011 572318EE 
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  --- {Session END} ---
+2016-05-10_09:25:12_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.974V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/abt-v1.1.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]000%]045%]045%]095%]095%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]090%]090%]090%]090%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (67584 bytes)
+				  J-Link: Flash download: Total time needed: 1.972s (Prepare: 0.057s, Compare: 0.009s, Erase: 1.408s, Program: 0.487s, Verify: 0.004s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_09:25:14_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 59303489
+				  License(s): GDB
+				  Emulator has Trace capability
+				  VTref = 2.974V
+				  
+				  
+				  Type "connect" to establish a t2016-05-10_09:45:47_UTC-0700	  
+				  Please check UART port connection and selection
+				  2016-05-10_09:45:48_UTC-0700	  
+				  Please check UART port connection and selection
+				  2016-05-10_09:47:30_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.008V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/ab-v1.1.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]000%]050%]050%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]055%]055%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]065%]065%]070%]070%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]090%]090%]090%]090%]095%]095%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (84992 bytes)
+				  J-Link: Flash download: Total time needed: 2.035s (Prepare: 0.057s, Compare: 0.011s, Erase: 1.351s, Program: 0.606s, Verify: 0.005s, Restore: 0.003s)
+				  O.K.
+				  10001080 = 30315354 FFFFFFFF 5728FC83 
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  --- {Session END} ---
+2016-05-10_09:48:22_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.008V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF--- {Session Start} Lot Name: "00C2D011", TimeStamp: "0x5730c5f2" ---
+2016-05-10_11:10:52_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.014V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000002 -> 4001E504
+				  Writing 00000001 -> 4001E50C
+				  Sleep(50)
+				  2016-05-10_11:10:52_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.013V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Writing 30315354 -> 10001080
+				  Writing 00C2D011 -> 10001084
+				  Writing 5730C5F2 -> 10001088
+				  Writing 0003C000 -> 10001014
+				  Writing 00000001 -> 0003FC00
+				  J-Link: Flash download: Flash programming performed for 2 ranges (2048 bytes)
+				  J-Link: Flash download: Total time needed: 0.072s (Prepare: 0.058s, Compare: 0.003s, Erase: 0.000s, Program: 0.006s, Verify: 0.001s, Restore: 0.003s)
+				  2016-05-10_11:10:55_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.013V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/s130-v2.0.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]000%]000%]005%]005%]005%]005%]005%]005%]010%]010%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]020%]020%]025%]025%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]035%]035%]040%]040%]040%]040%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]050%]050%]055%]055%]055%]055%]055%]055%]060%]060%]060%]060%]060%]060%]065%]065%]065%]065%]070%]070%]070%]070%]070%]070%]075%]075%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]085%]085%]090%]090%]090%]090%]090%]090%]095%]095%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (110592 bytes)
+				  J-Link: Flash download: Total time needed: 0.895s (Prepare: 0.055s, Compare: 0.022s, Erase: 0.000s, Program: 0.806s, Verify: 0.007s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_11:10:57_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.014V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/abt-v1.1.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]090%]090%]090%]090%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (67584 bytes)
+				  J-Link: Flash download: Total time needed: 0.571s (Prepare: 0.053s, Compare: 0.014s, Erase: 0.000s, Program: 0.495s, Verify: 0.004s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_11:11:00_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.014V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]005%]005%]010%]010%]010%]010%]015%]015%]020%]020%]020%]020%]025%]025%]030%]030%]030%]030%]035%]035%]040%]040%]040%]040%]045%]045%]050%]050%]050%]050%]055%]055%]060%]060%]060%]060%]065%]065%]070%]070%]070%]070%]075%]075%]080%]080%]080%]080%]085%]085%]090%]090%]090%]090%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (15360 bytes)
+				  J-Link: Flash download: Total time needed: 0.214s (Prepare: 0.054s, Compare: 0.004s, Erase: 0.000s, Program: 0.151s, Verify: 0.001s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_11:11:05_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.016V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/ab-v1.1.2.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]000%]045%]045%]095%]095%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]055%]055%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]065%]065%]070%]070%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]090%]090%]090%]090%]095%]095%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (84992 bytes)
+				  J-Link: Flash download: Total time needed: 2.082s (Prepare: 0.054s, Compare: 0.012s, Erase: 1.397s, Program: 0.609s, Verify: 0.005s, Restore: 0.003s)
+				  O.K.
+				  10001080 = 30315354 00C2D011 5730C5F2 
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  --- {Session END} ---
+--- {Session Start} Lot Name: "00C2D011", TimeStamp: "0x57322d47" ---
+2016-05-10_11:49:44_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.019V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000002 -> 4001E504
+				  Writing 00000001 -> 4001E50C
+				  Sleep(50)
+				  2016-05-10_11:49:44_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.016V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Writing 30315354 -> 10001080
+				  Writing 00C2D011 -> 10001084
+				  Writing 57322D47 -> 10001088
+				  Writing 0003C000 -> 10001014
+				  Writing 00000001 -> 0003FC00
+				  J-Link: Flash download: Flash programming performed for 2 ranges (2048 bytes)
+				  J-Link: Flash download: Total time needed: 0.074s (Prepare: 0.057s, Compare: 0.003s, Erase: 0.000s, Program: 0.006s, Verify: 0.002s, Restore: 0.003s)
+				  2016-05-10_11:49:52_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.016V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/s130-v2.0.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]000%]000%]005%]005%]005%]005%]005%]005%]010%]010%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]020%]020%]025%]025%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]035%]035%]040%]040%]040%]040%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]050%]050%]055%]055%]055%]055%]055%]055%]060%]060%]060%]060%]060%]060%]065%]065%]065%]065%]070%]070%]070%]070%]070%]070%]075%]075%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]085%]085%]090%]090%]090%]090%]090%]090%]095%]095%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (110592 bytes)
+				  J-Link: Flash download: Total time needed: 0.887s (Prepare: 0.054s, Compare: 0.022s, Erase: 0.000s, Program: 0.800s, Verify: 0.007s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_11:49:55_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.018V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/abt-v1.1.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]090%]090%]090%]090%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (67584 bytes)
+				  J-Link: Flash download: Total time needed: 0.569s (Prepare: 0.055s, Compare: 0.014s, Erase: 0.000s, Program: 0.490s, Verify: 0.004s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_11:49:59_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.016V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]005%]005%]010%]010%]010%]010%]015%]015%]020%]020%]020%]020%]025%]025%]030%]030%]030%]030%]035%]035%]040%]040%]040%]040%]045%]045%]050%]050%]050%]050%]055%]055%]060%]060%]060%]060%]065%]065%]070%]070%]070%]070%]075%]075%]080%]080%]080%]080%]085%]085%]090%]090%]090%]090%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (15360 bytes)
+				  J-Link: Flash download: Total time needed: 0.214s (Prepare: 0.055s, Compare: 0.004s, Erase: 0.000s, Program: 0.149s, Verify: 0.000s, Restore: 0.004s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_11:50:40_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.014V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]050%]100%] Done.
+				  Verifying flash   [000%]100%] Done.
+				  J-Link: Flash download: Flash download skipped. Flash contents already match
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_11:50:45_UTC-0700	  
+				  2016-05-10_11:50:45_UTC-0700	  test button
+				  
+				  > 
+				  
+				  [TEST] <button>
+				  Press button 3 times to pass test.
+				  2016-05-10_11:50:45_UTC-0700	  press
+				  2016-05-10_11:50:45_UTC-0700	  press
+				  2016-05-10_11:50:46_UTC-0700	  press
+				  [PASS] <button>
+				  
+				  [END]
+				  
+				  2016-05-10_11:50:51_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.013V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/ab-v1.1.2.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]000%]045%]045%]095%]095%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]055%]055%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]065%]065%]070%]070%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]090%]090%]090%]090%]095%]095%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (84992 bytes)
+				  J-Link: Flash download: Total time needed: 2.070s (Prepare: 0.053s, Compare: 0.012s, Erase: 1.389s, Program: 0.605s, Verify: 0.005s, Restore: 0.003s)
+				  O.K.
+				  10001080 = 30315354 00C2D011 57322D47 
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  --- {Session END} ---
+2016-05-10_15:39:10_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.018V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/ab-v1.1.2.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]000%]045%]045%]095%]095%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]055%]055%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]065%]065%]070%]070%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]090%]090%]090%]090%]095%]095%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (84992 bytes)
+				  J-Link: Flash download: Total time needed: 2.097s (Prepare: 0.057s, Compare: 0.012s, Erase: 1.397s, Program: 0.620s, Verify: 0.005s, Restore: 0.003s)
+				  O.K.
+				  10001080 = 30315354 00C2D021 57325555 
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  --- {Session END} ---
+--- {Session Start} Lot Name: "00C2D011", TimeStamp: "0x57326331" ---
+2016-05-10_15:39:46_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.018V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000002 -> 4001E504
+				  Writing 00000001 -> 4001E50C
+				  Sleep(50)
+				  2016-05-10_15:39:46_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.018V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Writing 30315354 -> 10001080
+				  Writing 00C2D011 -> 10001084
+				  Writing 57326331 -> 10001088
+				  Writing 0003C000 -> 10001014
+				  Writing 00000001 -> 0003FC00
+				  J-Link: Flash download: Flash programming performed for 2 ranges (2048 bytes)
+				  J-Link: Flash download: Total time needed: 0.070s (Prepare: 0.054s, Compare: 0.003s, Erase: 0.000s, Program: 0.007s, Verify: 0.001s, Restore: 0.003s)
+				  2016-05-10_15:39:49_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.016V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/s130-v2.0.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]000%]000%]005%]005%]005%]005%]005%]005%]010%]010%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]020%]020%]025%]025%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]035%]035%]040%]040%]040%]040%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]050%]050%]055%]055%]055%]055%]055%]055%]060%]060%]060%]060%]060%]060%]065%]065%]065%]065%]070%]070%]070%]070%]070%]070%]075%]075%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]085%]085%]090%]090%]090%]090%]090%]090%]095%]095%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (110592 bytes)
+				  J-Link: Flash download: Total time needed: 0.891s (Prepare: 0.053s, Compare: 0.022s, Erase: 0.000s, Program: 0.804s, Verify: 0.007s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_15:39:51_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.018V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/abt-v1.1.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]090%]090%]090%]090%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (67584 bytes)
+				  J-Link: Flash download: Total time needed: 0.568s (Prepare: 0.053s, Compare: 0.013s, Erase: 0.000s, Program: 0.493s, Verify: 0.004s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_15:39:53_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.018V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]005%]005%]010%]010%]010%]010%]015%]015%]020%]020%]020%]020%]025%]025%]030%]030%]030%]030%]035%]035%]040%]040%]040%]040%]045%]045%]050%]050%]050%]050%]055%]055%]060%]060%]060%]060%]065%]065%]070%]070%]070%]070%]075%]075%]080%]080%]080%]080%]085%]085%]090%]090%]090%]090%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (15360 bytes)
+				  J-Link: Flash download: Total time needed: 0.214s (Prepare: 0.054s, Compare: 0.004s, Erase: 0.000s, Program: 0.149s, Verify: 0.000s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_15:39:57_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.018V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/ab-v1.1.2.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]000%]045%]045%]095%]095%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]055%]055%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]065%]065%]070%]070%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]090%]090%]090%]090%]095%]095%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (84992 bytes)
+				  J-Link: Flash download: Total time needed: 2.078s (Prepare: 0.053s, Compare: 0.012s, Erase: 1.397s, Program: 0.605s, Verify: 0.006s, Restore: 0.003s)
+				  O.K.
+				  10001080 = 30315354 00C2D011 57326331 
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  --- {Session END} ---
+2016-05-10_15:41:55_UTC-0700	  
+				  Lot name is: FFFFFFFF, Please select Lot name.
+				  --- {Session Start} Lot Name: "00C2D011", TimeStamp: "0x57326331" ---
+2016-05-10_15:42:26_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.019V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000002 -> 4001E504
+				  Writing 00000001 -> 4001E50C
+				  Sleep(50)
+				  2016-05-10_15:42:27_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.016V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Writing 30315354 -> 10001080
+				  Writing 00C2D011 -> 10001084
+				  Writing 57326331 -> 10001088
+				  Writing 0003C000 -> 10001014
+				  Writing 00000001 -> 0003FC00
+				  J-Link: Flash download: Flash programming performed for 2 ranges (2048 bytes)
+				  J-Link: Flash download: Total time needed: 0.072s (Prepare: 0.056s, Compare: 0.003s, Erase: 0.000s, Program: 0.006s, Verify: 0.001s, Restore: 0.003s)
+				  2016-05-10_15:42:30_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.018V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/s130-v2.0.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]000%]000%]005%]005%]005%]005%]005%]005%]010%]010%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]020%]020%]025%]025%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]035%]035%]040%]040%]040%]040%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]050%]050%]055%]055%]055%]055%]055%]055%]060%]060%]060%]060%]060%]060%]065%]065%]065%]065%]070%]070%]070%]070%]070%]070%]075%]075%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]085%]085%]090%]090%]090%]090%]090%]090%]095%]095%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (110592 bytes)
+				  J-Link: Flash download: Total time needed: 0.949s (Prepare: 0.055s, Compare: 0.022s, Erase: 0.000s, Program: 0.803s, Verify: 0.063s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_15:42:32_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.018V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/abt-v1.1.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]090%]090%]090%]090%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (67584 bytes)
+				  J-Link: Flash download: Total time needed: 0.573s (Prepare: 0.056s, Compare: 0.014s, Erase: 0.000s, Program: 0.494s, Verify: 0.004s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_15:42:35_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.018V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]005%]005%]010%]010%]010%]010%]015%]015%]020%]020%]020%]020%]025%]025%]030%]030%]030%]030%]035%]035%]040%]040%]040%]040%]045%]045%]050%]050%]050%]050%]055%]055%]060%]060%]060%]060%]065%]065%]070%]070%]070%]070%]075%]075%]080%]080%]080%]080%]085%]085%]090%]090%]090%]090%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (15360 bytes)
+				  J-Link: Flash download: Total time needed: 0.214s (Prepare: 0.054s, Compare: 0.004s, Erase: 0.000s, Program: 0.150s, Verify: 0.001s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_15:42:39_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.018V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/ab-v1.1.2.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]000%]045%]045%]095%]095%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]055%]055%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]065%]065%]070%]070%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]090%]090%]090%]090%]095%]095%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (84992 bytes)
+				  J-Link: Flash download: Total time needed: 2.085s (Prepare: 0.055s, Compare: 0.012s, Erase: 1.397s, Program: 0.609s, Verify: 0.005s, Restore: 0.003s)
+				  O.K.
+				  10001080 = 30315354 00C2D011 57326331 
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  --- {Session END} ---
+2016-05-10_15:50:54_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.016V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/ab-v1.1.2.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]000%]045%]045%]095%]095%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]055%]055%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]065%]065%]070%]070%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]090%]090%]090%]090%]095%]095%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (84992 bytes)
+				  J-Link: Flash download: Total time needed: 2.087s (Prepare: 0.059s, Compare: 0.012s, Erase: 1.397s, Program: 0.608s, Verify: 0.005s, Restore: 0.003s)
+				  O.K.
+				  10001080 = 30315354 00C2D011 57326331 
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  --- {Session END} ---
+2016-05-10_15:54:49_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.018V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/ab-v1.1.2.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]000%]045%]045%]095%]095%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]055%]055%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]065%]065%]070%]070%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]090%]090%]090%]090%]095%]095%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (84992 bytes)
+				  J-Link: Flash download: Total time needed: 2.091s (Prepare: 0.060s, Compare: 0.012s, Erase: 1.397s, Program: 0.611s, Verify: 0.006s, Restore: 0.003s)
+				  O.K.
+				  10001080 = 30315354 00C2D011 573266A7 
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  --- {Session END} ---
+2016-05-10_15:54:59_UTC-0700	  Print Serial Number: D011573266A7
+				  2016-05-10_16:31:19_UTC-0700	  
+				  Lot name is: FFFFFFFF, Please select Lot name.
+				  --- {Session Start} Lot Name: "00C2D011", TimeStamp: "0x57325555" ---
+2016-05-10_16:32:47_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.011V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000002 -> 4001E504
+				  Writing 00000001 -> 4001E50C
+				  Sleep(50)
+				  --- {Session Start} Lot Name: "00C2D011", TimeStamp: "0x57326fa2" ---
+2016-05-10_16:33:30_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.011V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000002 -> 4001E504
+				  Writing 00000001 -> 4001E50C
+				  Sleep(50)
+				  --- {Session Start} Lot Name: "00C2D011", TimeStamp: "0x57326fcb" ---
+2016-05-10_16:33:31_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.011V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000002 -> 4001E504
+				  Writing 00000001 -> 4001E50C
+				  Sleep(50)
+				  2016-05-10_16:33:32_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.009V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Writing 30315354 -> 10001080
+				  Writing 00C2D011 -> 10001084
+				  Writing 57326FCB -> 10001088
+				  Writing 0003C000 -> 10001014
+				  Writing 00000001 -> 0003FC00
+				  J-Link: Flash download: Flash programming performed for 2 ranges (2048 bytes)
+				  J-Link: Flash download: Total time needed: 0.075s (Prepare: 0.059s, Compare: 0.003s, Erase: 0.000s, Program: 0.006s, Verify: 0.001s, Restore: 0.003s)
+				  2016-05-10_16:33:34_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.011V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/s130-v2.0.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]000%]000%]005%]005%]005%]005%]005%]005%]010%]010%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]020%]020%]025%]025%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]035%]035%]040%]040%]040%]040%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]050%]050%]055%]055%]055%]055%]055%]055%]060%]060%]060%]060%]060%]060%]065%]065%]065%]065%]070%]070%]070%]070%]070%]070%]075%]075%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]085%]085%]090%]090%]090%]090%]090%]090%]095%]095%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (110592 bytes)
+				  J-Link: Flash download: Total time needed: 0.893s (Prepare: 0.055s, Compare: 0.022s, Erase: 0.000s, Program: 0.805s, Verify: 0.007s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_16:33:36_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.011V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/abt-v1.1.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]090%]090%]090%]090%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (67584 bytes)
+				  J-Link: Flash download: Total time needed: 0.573s (Prepare: 0.055s, Compare: 0.014s, Erase: 0.000s, Program: 0.495s, Verify: 0.004s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_16:33:39_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.011V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]005%]005%]010%]010%]010%]010%]015%]015%]020%]020%]020%]020%]025%]025%]030%]030%]030%]030%]035%]035%]040%]040%]040%]040%]045%]045%]050%]050%]050%]050%]055%]055%]060%]060%]060%]060%]065%]065%]070%]070%]070%]070%]075%]075%]080%]080%]080%]080%]085%]085%]090%]090%]090%]090%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (15360 bytes)
+				  J-Link: Flash download: Total time needed: 0.215s (Prepare: 0.054s, Compare: 0.004s, Erase: 0.000s, Program: 0.151s, Verify: 0.001s, Restore: 0.004s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_16:33:45_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.011V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/ab-v1.1.2.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]000%]045%]045%]095%]095%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]055%]055%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]065%]065%]070%]070%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]090%]090%]090%]090%]095%]095%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (84992 bytes)
+				  J-Link: Flash download: Total time needed: 2.085s (Prepare: 0.055s, Compare: 0.012s, Erase: 1.397s, Program: 0.609s, Verify: 0.006s, Restore: 0.003s)
+				  O.K.
+				  10001080 = 30315354 00C2D011 57326FCB 
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  --- {Session END} ---
+--- {Session Start} Lot Name: "00C2D011", TimeStamp: "0x57326fcb" ---
+2016-05-10_16:33:53_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.011V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000002 -> 4001E504
+				  Writing 00000001 -> 4001E50C
+				  Sleep(50)
+				  2016-05-10_16:33:53_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.009V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Writing 30315354 -> 10001080
+				  Writing 00C2D011 -> 10001084
+				  Writing 57326FCB -> 10001088
+				  Writing 0003C000 -> 10001014
+				  Writing 00000001 -> 0003FC00
+				  J-Link: Flash download: Flash programming performed for 2 ranges (2048 bytes)
+				  J-Link: Flash download: Total time needed: 0.067s (Prepare: 0.053s, Compare: 0.003s, Erase: 0.000s, Program: 0.006s, Verify: 0.001s, Restore: 0.003s)
+				  2016-05-10_16:33:56_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.011V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/s130-v2.0.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]000%]000%]005%]005%]005%]005%]005%]005%]010%]010%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]020%]020%]025%]025%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]035%]035%]040%]040%]040%]040%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]050%]050%]055%]055%]055%]055%]055%]055%]060%]060%]060%]060%]060%]060%]065%]065%]065%]065%]070%]070%]070%]070%]070%]070%]075%]075%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]085%]085%]090%]090%]090%]090%]090%]090%]095%]095%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (110592 bytes)
+				  J-Link: Flash download: Total time needed: 0.892s (Prepare: 0.053s, Compare: 0.022s, Erase: 0.000s, Program: 0.805s, Verify: 0.007s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_16:33:58_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.013V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/abt-v1.1.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]090%]090%]090%]090%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (67584 bytes)
+				  J-Link: Flash download: Total time needed: 0.573s (Prepare: 0.055s, Compare: 0.014s, Erase: 0.000s, Program: 0.495s, Verify: 0.004s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_16:34:00_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.011V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]005%]005%]010%]010%]010%]010%]015%]015%]020%]020%]020%]020%]025%]025%]030%]030%]030%]030%]035%]035%]040%]040%]040%]040%]045%]045%]050%]050%]050%]050%]055%]055%]060%]060%]060%]060%]065%]065%]070%]070%]070%]070%]075%]075%]080%]080%]080%]080%]085%]085%]090%]090%]090%]090%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (15360 bytes)
+				  J-Link: Flash download: Total time needed: 0.213s (Prepare: 0.053s, Compare: 0.004s, Erase: 0.000s, Program: 0.150s, Verify: 0.001s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_16:34:04_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.011V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/ab-v1.1.2.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]000%]045%]045%]095%]095%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]055%]055%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]065%]065%]070%]070%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]090%]090%]090%]090%]095%]095%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (84992 bytes)
+				  J-Link: Flash download: Total time needed: 2.084s (Prepare: 0.055s, Compare: 0.012s, Erase: 1.397s, Program: 0.609s, Verify: 0.006s, Restore: 0.003s)
+				  O.K.
+				  10001080 = 30315354 00C2D011 57326FCB 
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  --- {Session END} ---
+2016-05-10_16:34:05_UTC-0700	  Print Serial Number: D01157326FCB
+				  2016-05-10_16:34:29_UTC-0700	  Serial Number is wrong, please click Start in Normal Mode.
+				  2016-05-10_16:34:44_UTC-0700	  Serial Number is wrong, please click Start in Normal Mode.
+				  2016-05-10_16:34:56_UTC-0700	  Print Serial Number: D01157325555
+				  --- {Session Start} Lot Name: "00C2D011", TimeStamp: "0x57325555" ---
+2016-05-10_16:35:00_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.011V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000002 -> 4001E504
+				  Writing 00000001 -> 4001E50C
+				  Sleep(50)
+				  2016-05-10_16:35:01_UTC-0700	  Serial Number is wrong, please click Start in Normal Mode.
+				  --- {Session Start} Lot Name: "00C2D011", TimeStamp: "0x5732702d" ---
+2016-05-10_16:35:10_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.009V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000002 -> 4001E504
+				  Writing 00000001 -> 4001E50C
+				  Sleep(50)
+				  --- {Session Start} Lot Name: "00C2D011", TimeStamp: "0x57327081" ---
+2016-05-10_16:36:34_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.011V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000002 -> 4001E504
+				  Writing 00000001 -> 4001E50C
+				  Sleep(50)
+				  2016-05-10_16:36:34_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.011V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Writing 30315354 -> 10001080
+				  Writing 00C2D011 -> 10001084
+				  Writing 57327081 -> 10001088
+				  Writing 0003C000 -> 10001014
+				  Writing 00000001 -> 0003FC00
+				  J-Link: Flash download: Flash programming performed for 2 ranges (2048 bytes)
+				  J-Link: Flash download: Total time needed: 0.075s (Prepare: 0.059s, Compare: 0.005s, Erase: 0.000s, Program: 0.006s, Verify: 0.001s, Restore: 0.003s)
+				  2016-05-10_16:36:37_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.011V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/s130-v2.0.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]000%]000%]005%]005%]005%]005%]005%]005%]010%]010%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]020%]020%]025%]025%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]035%]035%]040%]040%]040%]040%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]050%]050%]055%]055%]055%]055%]055%]055%]060%]060%]060%]060%]060%]060%]065%]065%]065%]065%]070%]070%]070%]070%]070%]070%]075%]075%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]085%]085%]090%]090%]090%]090%]090%]090%]095%]095%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (110592 bytes)
+				  J-Link: Flash download: Total time needed: 0.889s (Prepare: 0.053s, Compare: 0.022s, Erase: 0.000s, Program: 0.802s, Verify: 0.007s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_16:36:39_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.009V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/abt-v1.1.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]090%]090%]090%]090%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (67584 bytes)
+				  J-Link: Flash download: Total time needed: 0.570s (Prepare: 0.054s, Compare: 0.014s, Erase: 0.000s, Program: 0.494s, Verify: 0.004s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_16:36:41_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.011V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]005%]005%]010%]010%]010%]010%]015%]015%]020%]020%]020%]020%]025%]025%]030%]030%]030%]030%]035%]035%]040%]040%]040%]040%]045%]045%]050%]050%]050%]050%]055%]055%]060%]060%]060%]060%]065%]065%]070%]070%]070%]070%]075%]075%]080%]080%]080%]080%]085%]085%]090%]090%]090%]090%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (15360 bytes)
+				  J-Link: Flash download: Total time needed: 0.211s (Prepare: 0.052s, Compare: 0.004s, Erase: 0.000s, Program: 0.149s, Verify: 0.001s, Restore: 0.004s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_16:36:44_UTC-0700	  Print Serial Number: D01157327081
+				  2016-05-10_16:36:49_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.011V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/ab-v1.1.2.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]000%]045%]045%]095%]095%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]055%]055%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]065%]065%]070%]070%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]090%]090%]090%]090%]095%]095%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (84992 bytes)
+				  J-Link: Flash download: Total time needed: 2.074s (Prepare: 0.055s, Compare: 0.012s, Erase: 1.397s, Program: 0.598s, Verify: 0.006s, Restore: 0.003s)
+				  O.K.
+				  10001080 = 30315354 00C2D011 57327081 
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  --- {Session END} ---
+--- {Session Start} Lot Name: "00C2D011", TimeStamp: "0x57327081" ---
+2016-05-10_16:44:58_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.011V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000002 -> 4001E504
+				  Writing 00000001 -> 4001E50C
+				  Sleep(50)
+				  2016-05-10_16:44:58_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.013V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Writing 30315354 -> 10001080
+				  Writing 00C2D011 -> 10001084
+				  Writing 57327081 -> 10001088
+				  Writing 0003C000 -> 10001014
+				  Writing 00000001 -> 0003FC00
+				  J-Link: Flash download: Flash programming performed for 2 ranges (2048 bytes)
+				  J-Link: Flash download: Total time needed: 0.071s (Prepare: 0.056s, Compare: 0.003s, Erase: 0.000s, Program: 0.006s, Verify: 0.001s, Restore: 0.003s)
+				  2016-05-10_16:45:01_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.013V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/s130-v2.0.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]000%]000%]005%]005%]005%]005%]005%]005%]010%]010%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]020%]020%]025%]025%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]035%]035%]040%]040%]040%]040%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]050%]050%]055%]055%]055%]055%]055%]055%]060%]060%]060%]060%]060%]060%]065%]065%]065%]065%]070%]070%]070%]070%]070%]070%]075%]075%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]085%]085%]090%]090%]090%]090%]090%]090%]095%]095%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (110592 bytes)
+				  J-Link: Flash download: Total time needed: 0.935s (Prepare: 0.055s, Compare: 0.021s, Erase: 0.000s, Program: 0.853s, Verify: 0.000s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_16:45:03_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.011V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/abt-v1.1.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]090%]090%]090%]090%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (67584 bytes)
+				  J-Link: Flash download: Total time needed: 0.571s (Prepare: 0.054s, Compare: 0.014s, Erase: 0.000s, Program: 0.494s, Verify: 0.004s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_16:45:06_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.009V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/rd-v1.1.0.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]005%]005%]010%]010%]010%]010%]015%]015%]020%]020%]020%]020%]025%]025%]030%]030%]030%]030%]035%]035%]040%]040%]040%]040%]045%]045%]050%]050%]050%]050%]055%]055%]060%]060%]060%]060%]065%]065%]070%]070%]070%]070%]075%]075%]080%]080%]080%]080%]085%]085%]090%]090%]090%]090%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (15360 bytes)
+				  J-Link: Flash download: Total time needed: 0.212s (Prepare: 0.053s, Compare: 0.004s, Erase: 0.000s, Program: 0.149s, Verify: 0.001s, Restore: 0.003s)
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-05-10_16:45:13_UTC-0700	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link V9 compiled Feb  2 2016 18:43:46
+				  Hardware version: V9.30
+				  S/N: 269306082
+				  License(s): FlashBP, GDB
+				  OEM: SEGGER-EDU
+				  Emulator has Trace capability
+				  VTref = 3.011V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/ab-v1.1.2.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]000%]045%]045%]095%]095%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]040%]040%]045%]045%]045%]045%]050%]050%]050%]050%]055%]055%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]065%]065%]070%]070%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]090%]090%]090%]090%]095%]095%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (84992 bytes)
+				  J-Link: Flash download: Total time needed: 2.100s (Prepare: 0.055s, Compare: 0.012s, Erase: 1.398s, Program: 0.624s, Verify: 0.006s, Restore: 0.003s)
+				  O.K.
+				  10001080 = 30315354 00C2D011 57327081 
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  --- {Session END} ---
+2016-05-10_16:45:13_UTC-0700	  Print Serial Number: D01157327081
+				  

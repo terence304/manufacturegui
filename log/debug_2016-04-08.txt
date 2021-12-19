@@ -1,0 +1,728 @@
+2016-04-08_10:39:56_UTC+0800	  SEGGER J-Link Commander V5.10f (Compiled Dec 22 2015 14:25:20)
+				  DLL version V5.10f, compiled Dec 22 2015 14:25:14
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+				  Hardware version: V8.00
+				  S/N: 99999993
+				  License(s): RDI,FlashDL,FlashBP,JFlash,GDBFULL
+				  Emulator has Trace capability
+				  VTref = 2.989V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/bootloader.bin]...Comparing flash   [000%]000%]050%]050%]100%] Done.
+				  Verifying flash   [000%]100%] Done.
+				  J-Link: Flash download: Flash download skipped. Flash contents already match
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-04-08_10:40:01_UTC+0800	  
+				  2016-04-08_10:40:02_UTC+0800	  test axl
+				  
+				  > 
+				  
+				  [TEST] <axl>
+				  Accelerometer ON
+				  Press button to make measurement.
+				  whoami: 0x33
+				  z-axis: 2016-04-08_10:40:05_UTC+0800	  (   88,  -48, -972 ) mg
+				  [FAIL] <axl>
+				  
+				  [END]
+				  
+				  2016-04-08_10:40:08_UTC+0800	  
+				  2016-04-08_10:40:08_UTC+0800	  test axl
+				  
+				  > 
+				  
+				  [TEST] <axl>
+				  Accelerometer ON
+				  Press button to make measurement.
+				  whoami: 0x33
+				  z-axis: 2016-04-08_10:40:11_UTC+0800	  (   88,  -16, -980 ) mg
+				  [FAIL] <axl>
+				  
+				  [END]
+				  
+				  2016-04-08_10:40:15_UTC+0800	  
+				  2016-04-08_10:40:15_UTC+0800	  test axl
+				  
+				  > 
+				  
+				  [TEST] <axl>
+				  Accelerometer ON
+				  Press button to make measurement.
+				  whoami: 0x33
+				  z-axis: 2016-04-08_10:40:20_UTC+0800	  (   64, -116, -972 ) mg
+				  [FAIL] <axl>
+				  
+				  [END]
+				  
+				  2016-04-08_10:40:28_UTC+0800	  
+				  2016-04-08_10:40:28_UTC+0800	  test axl
+				  
+				  > 
+				  
+				  [TEST] <axl>
+				  Accelerometer ON
+				  Press button to make measurement.
+				  whoami: 0x33
+				  z-axis: 2016-04-08_10:40:30_UTC+0800	  (   52,  -28, -936 ) mg
+				  [FAIL] <axl>
+				  
+				  [END]
+				  
+				  2016-04-08_10:40:38_UTC+0800	  
+				  2016-04-08_10:40:38_UTC+0800	  test axl
+				  
+				  > 
+				  
+				  [TEST] <axl>
+				  Accelerometer ON
+				  Press button to make measurement.
+				  whoami: 0x33
+				  z-axis: 2016-04-08_10:40:40_UTC+0800	  (   60,  -48, -972 ) mg
+				  [FAIL] <axl>
+				  
+				  [END]
+				  
+				  2016-04-08_10:40:42_UTC+0800	  
+				  2016-04-08_10:40:42_UTC+0800	  test axl
+				  
+				  > 
+				  
+				  [TEST] <axl>
+				  Accelerometer ON
+				  Press button to make measurement.
+				  whoami: 0x33
+				  z-axis: 2016-04-08_10:40:44_UTC+0800	  (   64,   52, -964 ) mg
+				  [FAIL] <axl>
+				  
+				  [END]
+				  
+				  2016-04-08_10:45:40_UTC+0800	  SEGGER J-Link Commander V5.10f (Compiled Dec 22 2015 14:25:20)
+				  DLL version V5.10f, compiled Dec 22 2015 14:25:14
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+				  Hardware version: V8.00
+				  S/N: 99999993
+				  License(s): RDI,FlashDL,FlashBP,JFlash,GDBFULL
+				  Emulator has Trace capability
+				  VTref = 3.002V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/bootloader.bin]...Comparing flash   [000%]000%]050%]050%]100%] Done.
+				  Verifying flash   [000%]100%] Done.
+				  J-Link: Flash download: Flash download skipped. Flash contents already match
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-04-08_10:45:45_UTC+0800	  
+				  2016-04-08_10:45:45_UTC+0800	  test axl
+				  
+				  > 
+				  
+				  [TEST] <axl>
+				  Accelerometer ON
+				  Press button to make measurement.
+				  whoami: 0x33
+				  z-axis: 2016-04-08_10:45:52_UTC+0800	  (   -8,  -48, -996 ) mg
+				  y-axis: 2016-04-08_10:45:56_UTC+0800	  (  -12,  948,    4 ) mg
+				  x-axis: 2016-04-08_10:46:02_UTC+0800	  (  968,  -52,   -4 ) mg
+				  [FAIL] <axl>
+				  
+				  [END]
+				  
+				  2016-04-08_10:46:13_UTC+0800	  
+				  2016-04-08_10:46:13_UTC+0800	  test axl
+				  
+				  > 
+				  
+				  [TEST] <axl>
+				  Accelerometer ON
+				  Press button to make measurement.
+				  whoami: 0x33
+				  z-axis: 2016-04-08_10:46:15_UTC+0800	  (   -8,  -36, -988 ) mg
+				  y-axis: 2016-04-08_10:46:18_UTC+0800	  (   -4,  956,    0 ) mg
+				  x-axis: 2016-04-08_10:46:25_UTC+0800	  (  972,  -56,   36 ) mg
+				  [FAIL] <axl>
+				  
+				  [END]
+				  
+				  2016-04-08_10:46:30_UTC+0800	  
+				  2016-04-08_10:46:30_UTC+0800	  test axl
+				  
+				  > 
+				  
+				  [TEST] <axl>
+				  Accelerometer ON
+				  Press button to make measurement.
+				  whoami: 0x33
+				  z-axis: 2016-04-08_10:46:33_UTC+0800	  (    8,  -52, -1008 ) mg
+				  [FAIL] <axl>
+				  
+				  [END]
+				  
+				  2016-04-08_10:46:36_UTC+0800	  
+				  2016-04-08_10:46:36_UTC+0800	  test axl
+				  
+				  > 
+				  
+				  [TEST] <axl>
+				  Accelerometer ON
+				  Press button to make measurement.
+				  whoami: 0x33
+				  z-axis: 2016-04-08_10:46:39_UTC+0800	  (    0,  -40, -988 ) mg
+				  y-axis: 2016-04-08_10:46:43_UTC+0800	  (    0,  956,    4 ) mg2016-04-08_10:46:43_UTC+0800	  
+				  x-axis: 2016-04-08_10:46:53_UTC+0800	  (  964,  -52,    0 ) mg
+				  [FAIL] <axl>
+				  
+				  [END]
+				  
+				  2016-04-08_10:46:59_UTC+0800	  
+				  2016-04-08_10:46:59_UTC+0800	  test axl
+				  
+				  > 
+				  
+				  [TEST] <axl>
+				  Accelerometer ON
+				  Press button to make measurement.
+				  whoami: 0x33
+				  z-axis: 2016-04-08_10:47:02_UTC+0800	  (   -8,    0, -960 ) mg
+				  y-axis: 2016-04-08_10:47:06_UTC+0800	  (   -4,  952,   -4 ) mg
+				  x-axis: 2016-04-08_10:47:15_UTC+0800	  (  868,  -16,    8 ) mg
+				  [FAIL] <axl>
+				  
+				  [END]
+				  
+				  2016-04-08_10:47:24_UTC+0800	  
+				  2016-04-08_10:47:24_UTC+0800	  test axl
+				  
+				  > 
+				  
+				  [TEST] <axl>
+				  Accelerometer ON
+				  Press button to make measurement.
+				  whoami: 0x33
+				  z-axis: 2016-04-08_10:47:25_UTC+0800	  (   -4,  -48, -992 ) mg
+				  y-axis: 2016-04-08_10:47:29_UTC+0800	  (    0,  940,  -16 ) mg
+				  x-axis: 2016-04-08_10:47:42_UTC+0800	  (  972,  -48,  -20 ) mg
+				  [PASS] <axl>
+				  
+				  [END]
+				  
+				  2016-04-08_10:49:11_UTC+0800	  SEGGER J-Link Commander V5.10f (Compiled Dec 22 2015 14:25:20)
+				  DLL version V5.10f, compiled Dec 22 2015 14:25:14
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+				  Hardware version: V8.00
+				  S/N: 99999993
+				  License(s): RDI,FlashDL,FlashBP,JFlash,GDBFULL
+				  Emulator has Trace capability
+				  VTref = 3.002V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/product.bin]...Comparing flash   [000%]000%]050%]100%] Done.
+				  Erasing flash     [000%]000%]050%]050%]100%] Done.
+				  Programming flash [000%]000%]000%]000%]005%]005%]005%]005%]010%]010%]010%]010%]015%]015%]015%]015%]020%]020%]020%]020%]025%]025%]025%]025%]030%]030%]030%]030%]035%]035%]035%]035%]040%]040%]040%]040%]045%]045%]050%]050%]050%]050%]055%]055%]055%]055%]060%]060%]060%]060%]065%]065%]065%]065%]070%]070%]070%]070%]075%]075%]075%]075%]080%]080%]080%]080%]085%]085%]085%]085%]090%]090%]090%]090%]095%]095%]100%] Done.
+				  Verifying flash   [000%]000%]100%] Done.
+				  J-Link: Flash download: Flash programming performed for 1 range (77824 bytes)
+				  J-Link: Flash download: Total time needed: 1.894s (Prepare: 0.056s, Compare: 0.013s, Erase: 1.236s, Program: 0.579s, Verify: 0.005s, Restore: 0.003s)
+				  O.K.
+				  10001080 = 30315354 00C2D011 57071B0F 
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  --- {Session END} ---
+2016-04-08_10:57:25_UTC+0800	  SEGGER J-Link Commander V5.10f (Compiled Dec 22 2015 14:25:20)
+				  DLL version V5.10f, compiled Dec 22 2015 14:25:14
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+				  Hardware version: V8.00
+				  S/N: 99999993
+				  License(s): RDI,FlashDL,FlashBP,JFlash,GDBFULL
+				  Emulator has Trace capability
+				  VTref = 3.002V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/bootloader.bin]...Comparing flash   [000%]000%]050%]050%]100%] Done.
+				  Verifying flash   [000%]100%] Done.
+				  J-Link: Flash download: Flash download skipped. Flash contents already match
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-04-08_11:07:54_UTC+0800	  SEGGER J-Link Commander V5.10f (Compiled Dec 22 2015 14:25:20)
+				  DLL version V5.10f, compiled Dec 22 2015 14:25:14
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+				  Hardware version: V8.00
+				  S/N: 99999993
+				  License(s): RDI,FlashDL,FlashBP,JFlash,GDBFULL
+				  Emulator has Trace capability
+				  VTref = 3.002V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/bootloader.bin]...Comparing flash   [000%]000%]050%]050%]100%] Done.
+				  Verifying flash   [000%]100%] Done.
+				  J-Link: Flash download: Flash download skipped. Flash contents already match
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-04-08_11:07:57_UTC+0800	  
+				  2016-04-08_11:07:57_UTC+0800	  test axl
+				  
+				  > 
+				  
+				  [TEST] <axl>
+				  Accelerometer ON
+				  Press button to make measurement.
+				  whoami: 0x33
+				  z-axis: 2016-04-08_11:08:00_UTC+0800	  (    4,  -56, -992 ) mg
+				  [FAIL] <axl>
+				  
+				  [END]
+				  
+				  2016-04-08_11:08:04_UTC+0800	  
+				  2016-04-08_11:08:04_UTC+0800	  test axl
+				  
+				  > 
+				  
+				  [TEST] <axl>
+				  Accelerometer ON
+				  Press button to make measurement.
+				  whoami: 0x33
+				  z-axis: 2016-04-08_11:08:06_UTC+0800	  (    0,  -52, -988 ) mg
+				  [FAIL] <axl>
+				  
+				  [END]
+				  
+				  2016-04-08_11:08:08_UTC+0800	  
+				  2016-04-08_11:08:08_UTC+0800	  test axl
+				  
+				  > 
+				  
+				  [TEST] <axl>
+				  Accelerometer ON
+				  Press button to make measurement.
+				  whoami: 0x33
+				  z-axis: 2016-04-08_11:08:09_UTC+0800	  (   -8,  -20, -988 ) mg
+				  y-axis: 2016-04-08_11:08:19_UTC+0800	  (    0,  956,  -12 ) mg
+				  x-axis: 2016-04-08_11:08:23_UTC+0800	  (  944,  -56,  -20 ) mg
+				  [FAIL] <axl>
+				  
+				  [END]
+				  
+				  2016-04-08_11:08:29_UTC+0800	  
+				  2016-04-08_11:08:29_UTC+0800	  test axl
+				  
+				  > 
+				  
+				  [TEST] <axl>
+				  Accelerometer ON
+				  Press button to make measurement.
+				  whoami: 0x33
+				  z-axis: 2016-04-08_11:08:32_UTC+0800	  (  -16,  -32, -980 ) mg
+				  y-axis: 2016-04-08_11:08:34_UTC+0800	  (   -4,  956,   -4 ) mg
+				  x-axis: 2016-04-08_11:08:41_UTC+0800	  (  984,  -48,  -20 ) mg
+				  [PASS] <axl>
+				  
+				  [END]
+				  
+				  2016-04-08_11:08:49_UTC+0800	  SEGGER J-Link Commander V5.10f (Compiled Dec 22 2015 14:25:20)
+				  DLL version V5.10f, compiled Dec 22 2015 14:25:14
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+				  Hardware version: V8.00
+				  S/N: 99999993
+				  License(s): RDI,FlashDL,FlashBP,JFlash,GDBFULL
+				  Emulator has Trace capability
+				  VTref = 3.002V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 c--- {Session Start} Lot Name: "00C2D011", TimeStamp: "0xffffffff" ---
+2016-04-08_15:30:58_UTC+0800	  SEGGER J-Link Commander V5.10f (Compiled Dec 22 2015 14:25:20)
+				  DLL version V5.10f, compiled Dec 22 2015 14:25:14
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+				  Hardware version: V8.00
+				  S/N: 99999993
+				  License(s): RDI,FlashDL,FlashBP,JFlash,GDBFULL
+				  Emulator has Trace capability
+				  VTref = 2.995V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000002 -> 4001E504
+				  Writing 00000001 -> 4001E50C
+				  Sleep(50)
+				  2016-04-08_15:30:58_UTC+0800	  
+				  Time Stamp is: FFFFFFFF, Please click START in Normal Mode
+				  --- {Session Start} Lot Name: "00C2D011", TimeStamp: "0x57075ea3" ---
+2016-04-08_15:33:02_UTC+0800	  SEGGER J-Link Commander V5.10f (Compiled Dec 22 2015 14:25:20)
+				  DLL version V5.10f, compiled Dec 22 2015 14:25:14
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+				  Hardware version: V8.00
+				  S/N: 99999993
+				  License(s): RDI,FlashDL,FlashBP,JFlash,GDBFULL
+				  Emulator has Trace capability
+				  VTref = 3.002V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Can not connect to target.
+				  Reset delay: 0 ms
+				  Reset type UNKNOWN: ???
+				  Writing 00000002 -> 4001E504
+				  Writing 00000001 -> 4001E50C
+				  Sleep(50)
+				  --- {Session Start} Lot Name: "00C2D011", TimeStamp: "0x57075f61" ---
+2016-04-08_15:36:20_UTC+0800	  SEGGER J-Link Commander V5.10f (Compiled Dec 22 2015 14:25:20)
+				  DLL version V5.10f, compiled Dec 22 2015 14:25:14
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+				  Hardware version: V8.00
+				  S/N: 99999993
+				  License(s): RDI,FlashDL,FlashBP,JFlash,GDBFULL
+				  Emulator has Trace capability
+				  VTref = 2.995V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Can not connect to target.
+				  Reset delay: 0 ms
+				  Reset type UNKNOWN: ???
+				  Writing 00000002 -> 4001E504
+				  Writing 00000001 -> 4001E50C
+				  Sleep(50)
+				  --- {Session Start} Lot Name: "00C2D011", TimeStamp: "0x57075fc4" ---
+2016-04-08_15:37:52_UTC+0800	  SEGGER J-Link Commander V5.10f (Compiled Dec 22 2015 14:25:20)
+				  DLL version V5.10f, compiled Dec 22 2015 14:25:14
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+				  Hardware version: V8.00
+				  S/N: 99999993
+				  License(s): RDI,FlashDL,FlashBP,JFlash,GDBFULL
+				  Emulator has Trace capability
+				  VTref = 2.995V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Can not co2016-04-08_17:18:34_UTC+0800	  SEGGER J-Link Commander V5.10f (Compiled Dec 22 2015 14:25:20)
+				  DLL version V5.10f, compiled Dec 22 2015 14:25:14
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+				  Hardware version: V8.00
+				  S/N: 99999993
+				  License(s): RDI,FlashDL,FlashBP,JFlash,GDBFULL
+				  Emulator has Trace capability
+				  VTref = 2.995V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/bootloader.bin]...Comparing flash   [000%]000%]050%]050%]100%] Done.
+				  Verifying flash   [000%]100%] Done.
+				  J-Link: Flash download: Flash download skipped. Flash contents already match
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-04-08_17:18:42_UTC+0800	  test ble
+				  
+				  > 
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect to it.
+				  2016-04-08_17:19:13_UTC+0800	  DemoPeripheral CONNECTED. Now disconnect.
+				  DemoPeripheral DISCONNECTED.
+				  [PASS] <ble>
+				  
+				  [END]
+				  
+				  test stop
+				  
+				  > 2016-04-08_17:19:21_UTC+0800	  test ble
+				  
+				  > 
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect to it.
+				  2016-04-08_17:19:28_UTC+0800	  DemoPeripheral CONNECTED. Now disconnect.
+				  DemoPeripheral DISCONNECTED.
+				  [PASS] <ble>
+				  
+				  [END]
+				  
+				  test stop
+				  
+				  > 2016-04-08_17:20:01_UTC+0800	  SEGGER J-Link Commander V5.10f (Compiled Dec 22 2015 14:25:20)
+				  DLL version V5.10f, compiled Dec 22 2015 14:25:14
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+				  Hardware version: V8.00
+				  S/N: 99999993
+				  License(s): RDI,FlashDL,FlashBP,JFlash,GDBFULL
+				  Emulator has Trace capability
+				  VTref = 2.995V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Found SWD-DP with ID 0x0BB11477
+				  Found Cortex-M0 r0p0, Little endian.
+				  FPUnit: 4 code (BP) slots and 0 literal slots
+				  CoreSight components:
+				  ROMTbl 0 @ F0000000
+				  ROMTbl 0 [0]: F00FF000, CID: B105100D, PID: 000BB471 ROM Table
+				  ROMTbl 1 @ E00FF000
+				  ROMTbl 1 [0]: FFF0F000, CID: B105E00D, PID: 000BB008 SCS
+				  ROMTbl 1 [1]: FFF02000, CID: B105E00D, PID: 000BB00A DWT
+				  ROMTbl 1 [2]: FFF03000, CID: B105E00D, PID: 000BB00B FPB
+				  ROMTbl 0 [1]: 00002000, CID: B105900D, PID: 000BB9A3 ???
+				  Cortex-M0 identified.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/bootloader.bin]...Comparing flash   [000%]000%]050%]050%]100%] Done.
+				  Verifying flash   [000%]100%] Done.
+				  J-Link: Flash download: Flash download skipped. Flash contents already match
+				  O.K.
+				  Reset delay: 0 ms
+				  Reset type NORMAL: Resets core & peripherals via SYSRESETREQ & VECTRESET bit.
+				  2016-04-08_17:20:06_UTC+0800	  test ble
+				  
+				  > 
+				  
+				  [TEST] <ble>
+				  DemoPeripheral ADVERTISING. Connect to it.
+				  2016-04-08_17:20:21_UTC+0800	  DemoPeripheral CONNECTED. Now disconnect.
+				  DemoPeripheral DISCONNECTED.
+				  [PASS] <ble>
+				  
+				  [END]
+				  
+				  test stop
+				  
+				  > 2016-04-08_17:20:28_UTC+0800	  
+				  2016-04-08_17:20:29_UTC+0800	  test axl
+				  
+				  > 
+				  
+				  [TEST] <axl>
+				  Accelerometer ON
+				  Press button to make measurement.
+				  whoami: 0x33
+				  z-axis: 2016-04-08_17:20:31_UTC+0800	  ( -2016-04-08_17:20:32_UTC+0800	  1536,  132, -848 ) mg
+				  [FAIL] <axl>
+				  
+				  [END]
+				  
+				  2016-04-08_17:20:35_UTC+0800	  
+				  2016-04-08_17:20:35_UTC+0800	  test axl
+				  
+				  > 
+				  
+				  [TEST] <axl>
+				  Accelerometer ON
+				  Press button to make measurement.
+				  whoami: 0x33
+				  z-axis: 2016-04-08_17:20:36_UTC+0800	  ( -1556,  132, -844 ) mg
+				  [FAIL] <axl>
+				  
+				  [END]
+				  
+				  2016-04-08_17:20:38_UTC+0800	  
+				  2016-04-08_17:20:38_UTC+0800	  test axl
+				  
+				  > 
+				  
+				  [TEST] <axl>
+				  Accelerometer ON
+				  Press button to make measurement.
+				  whoami: 0x33
+				  z-axis: 2016-04-08_17:20:39_UTC+0800	  ( -1536,  140, -860 ) mg
+				  [FAIL] <axl>
+				  
+				  [END]
+				  
+				  

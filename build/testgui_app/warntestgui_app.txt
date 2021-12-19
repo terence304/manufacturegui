@@ -1,0 +1,431 @@
+missing module named PyQt4.QtCore.QCoreApplication - imported by PyQt4.QtCore, /usr/local/lib/python2.7/site-packages/PyInstaller/loader/rthooks/pyi_rth_qt4plugins.py
+missing module named PySide.QtCore.QCoreApplication - imported by PySide.QtCore, /usr/local/lib/python2.7/site-packages/PyInstaller/loader/rthooks/pyi_rth_qt4plugins.py
+missing module named _ctypes._wstring_at_addr - imported by _ctypes, ctypes
+missing module named _ctypes._string_at_addr - imported by _ctypes, ctypes
+missing module named _ctypes._cast_addr - imported by _ctypes, ctypes
+missing module named _ctypes._memset_addr - imported by _ctypes, ctypes
+missing module named _ctypes._memmove_addr - imported by _ctypes, ctypes
+missing module named _ctypes.get_last_error - imported by _ctypes, ctypes
+missing module named _ctypes.set_last_error - imported by _ctypes, ctypes
+missing module named _ctypes._check_HRESULT - imported by _ctypes, ctypes
+missing module named _ctypes.set_conversion_mode - imported by _ctypes, ctypes
+missing module named _ctypes._pointer_type_cache - imported by _ctypes, ctypes
+missing module named _ctypes.POINTER - imported by _ctypes, ctypes
+missing module named _ctypes.pointer - imported by _ctypes, ctypes
+missing module named _ctypes._SimpleCData - imported by _ctypes, ctypes
+missing module named _ctypes.get_errno - imported by _ctypes, ctypes
+missing module named _ctypes.set_errno - imported by _ctypes, ctypes
+missing module named _ctypes.alignment - imported by _ctypes, ctypes
+missing module named _ctypes.addressof - imported by _ctypes, ctypes
+missing module named _ctypes.resize - imported by _ctypes, ctypes
+missing module named _ctypes.byref - imported by _ctypes, ctypes
+missing module named _ctypes.sizeof - imported by _ctypes, ctypes
+missing module named _ctypes.dlopen - imported by _ctypes, ctypes
+missing module named _ctypes.FUNCFLAG_STDCALL - imported by _ctypes, ctypes
+missing module named _ctypes.LoadLibrary - imported by _ctypes, ctypes
+missing module named _ctypes.FUNCFLAG_USE_ERRNO - imported by _ctypes, ctypes
+missing module named _ctypes.FUNCFLAG_USE_LASTERROR - imported by _ctypes, ctypes
+missing module named _ctypes.FUNCFLAG_PYTHONAPI - imported by _ctypes, ctypes
+missing module named _ctypes.FUNCFLAG_CDECL - imported by _ctypes, ctypes
+missing module named _ctypes.FormatError - imported by _ctypes, ctypes
+missing module named struct.calcsize - imported by struct, ctypes
+missing module named _struct.__doc__ - imported by _struct, struct
+missing module named _struct._clearcache - imported by _struct, struct
+missing module named _ctypes.ArgumentError - imported by _ctypes, ctypes
+missing module named _ctypes.RTLD_LOCAL - imported by _ctypes, ctypes
+missing module named _ctypes.RTLD_GLOBAL - imported by _ctypes, ctypes
+missing module named _ctypes.__version__ - imported by _ctypes, ctypes
+missing module named _ctypes.CFuncPtr - imported by _ctypes, ctypes
+missing module named _ctypes._Pointer - imported by _ctypes, ctypes
+missing module named _ctypes.Structure - imported by _ctypes, ctypes
+missing module named _ctypes.Array - imported by _ctypes, ctypes
+missing module named _ctypes.Union - imported by _ctypes, ctypes
+missing module named pwd.getpwnam - imported by pwd, shutil
+missing module named _warnings.warn_explicit - imported by _warnings, warnings
+missing module named _warnings.filters - imported by _warnings, warnings
+missing module named _warnings.once_registry - imported by _warnings, warnings
+missing module named _warnings.default_action - imported by _warnings, warnings
+missing module named _warnings.warn - imported by _warnings, warnings
+missing module named warnings.warn - imported by warnings, random, contextlib, plistlib
+missing module named _sre.MAXREPEAT - imported by _sre, sre_constants
+missing module named strop.whitespace - imported by strop, string
+missing module named strop.maketrans - imported by strop, string
+missing module named strop.lowercase - imported by strop, string
+missing module named strop.uppercase - imported by strop, string
+missing module named itertools.islice - imported by itertools, heapq, repr, future.types.newrange, future.backports.misc
+missing module named itertools.starmap - imported by itertools, collections, future.backports.misc
+missing module named itertools.repeat - imported by itertools, collections, future.backports.misc, decimal
+missing module named itertools.imap - imported by itertools, heapq, collections
+missing module named itertools.tee - imported by itertools, heapq
+missing module named itertools.izip - imported by itertools, heapq
+missing module named itertools.chain - imported by itertools, heapq, tokenize, collections, future.backports.misc, decimal
+missing module named itertools.count - imported by itertools, heapq, threading, future.backports.misc
+missing module named 'org.python'.PyStringMap - imported by 'org.python', copy
+missing module named 'org.python' - imported by copy, xml.sax
+missing module named 'org.python'.imp - imported by 'org.python', xml.sax
+missing module named exceptions.ReferenceError - imported by exceptions, weakref
+missing module named _weakref.ref - imported by _weakref, _weakrefset, weakref
+missing module named _weakref.ReferenceType - imported by _weakref, weakref
+missing module named _weakref.proxy - imported by _weakref, weakref, future.backports.misc
+missing module named _weakref.getweakrefs - imported by _weakref, weakref
+missing module named _weakref.getweakrefcount - imported by _weakref, weakref
+missing module named _weakref.CallableProxyType - imported by _weakref, weakref
+missing module named _weakref.ProxyType - imported by _weakref, weakref
+missing module named copy.deepcopy - imported by copy, weakref
+missing module named array.array - imported by array, httplib, future.backports.http.client
+missing module named re._compile - imported by re, sre
+missing module named re.__all__ - imported by re, sre
+missing module named pyimod03_importers.FrozenImporter - imported by pyimod03_importers, /usr/local/lib/python2.7/site-packages/PyInstaller/loader/rthooks/pyi_rth_pkgres.py
+missing module named pyimod03_importers - imported by /usr/local/lib/python2.7/site-packages/PyInstaller/loader/rthooks/pyi_rth_pkgres.py
+missing module named 'pkg_resources.extern.pyparsing'.Literal - imported by 'pkg_resources.extern.pyparsing', pkg_resources._vendor.packaging.requirements, pkg_resources._vendor.packaging.markers
+missing module named 'pkg_resources.extern.pyparsing'.QuotedString - imported by 'pkg_resources.extern.pyparsing', pkg_resources._vendor.packaging.markers
+missing module named 'pkg_resources.extern.pyparsing'.ZeroOrMore - imported by 'pkg_resources.extern.pyparsing', pkg_resources._vendor.packaging.requirements, pkg_resources._vendor.packaging.markers
+missing module named 'pkg_resources.extern.pyparsing'.Group - imported by 'pkg_resources.extern.pyparsing', pkg_resources._vendor.packaging.markers
+missing module named 'pkg_resources.extern.pyparsing'.Forward - imported by 'pkg_resources.extern.pyparsing', pkg_resources._vendor.packaging.markers
+missing module named 'pkg_resources.extern.pyparsing'.ParseException - imported by 'pkg_resources.extern.pyparsing', pkg_resources._vendor.packaging.requirements, pkg_resources._vendor.packaging.markers
+missing module named 'pkg_resources.extern.pyparsing'.stringEnd - imported by 'pkg_resources.extern.pyparsing', pkg_resources._vendor.packaging.requirements, pkg_resources._vendor.packaging.markers
+missing module named 'pkg_resources.extern.pyparsing'.stringStart - imported by 'pkg_resources.extern.pyparsing', pkg_resources._vendor.packaging.requirements, pkg_resources._vendor.packaging.markers
+missing module named 'pkg_resources.extern.pyparsing'.ParseResults - imported by 'pkg_resources.extern.pyparsing', pkg_resources._vendor.packaging.markers
+missing module named 'pkg_resources.extern.pyparsing' - imported by pkg_resources._vendor.packaging.requirements, pkg_resources._vendor.packaging.markers
+missing module named 'pkg_resources.extern.pyparsing'.Optional - imported by 'pkg_resources.extern.pyparsing', pkg_resources._vendor.packaging.requirements
+missing module named 'pkg_resources.extern.pyparsing'.Combine - imported by 'pkg_resources.extern.pyparsing', pkg_resources._vendor.packaging.requirements
+missing module named 'pkg_resources.extern.pyparsing'.Word - imported by 'pkg_resources.extern.pyparsing', pkg_resources._vendor.packaging.requirements
+missing module named 'pkg_resources.extern.pyparsing'.Regex - imported by 'pkg_resources.extern.pyparsing', pkg_resources._vendor.packaging.requirements
+missing module named 'pkg_resources.extern.pyparsing'.originalTextFor - imported by 'pkg_resources.extern.pyparsing', pkg_resources._vendor.packaging.requirements
+missing module named errno.EINVAL - imported by errno, StringIO
+missing module named errno.ENOENT - imported by errno, gettext
+missing module named 'pkg_resources.extern.six.moves'.parse - imported by 'pkg_resources.extern.six.moves', pkg_resources._vendor.packaging.requirements
+missing module named collections.namedtuple - imported by collections, inspect, unittest.util, difflib, doctest, ssl, urlparse, future.backports.urllib.parse, decimal
+missing module named operator.attrgetter - imported by operator, inspect
+missing module named cStringIO.StringIO - imported by cStringIO, pprint, gettext, shlex, tempfile, pickle, socket, tarfile, plistlib, email.parser, email.message, quopri, httplib, urllib, email.generator, email.iterators, urllib2, xml.sax, encodings.uu_codec, encodings.quopri_codec
+missing module named collections.deque - imported by collections, shlex, threading, ast, Queue
+missing module named __main__.__requires__ - imported by __main__, pkg_resources
+missing module named pkg_resources.extern.packaging - imported by pkg_resources.extern, pkg_resources
+missing module named 'importlib.machinery' - imported by pkg_resources
+missing module named posixpath.isdir - imported by posixpath, pkg_resources
+missing module named os.open - imported by os, pkg_resources
+missing module named os.mkdir - imported by os, pkg_resources
+missing module named os.unlink - imported by os, pkg_resources
+missing module named os.rename - imported by os, pkg_resources
+missing module named os.utime - imported by os, pkg_resources
+missing module named 'pkg_resources.extern.six.moves'.urllib - imported by 'pkg_resources.extern.six.moves', pkg_resources
+missing module named 'pkg_resources.extern.six.moves'.map - imported by 'pkg_resources.extern.six.moves', pkg_resources
+missing module named 'pkg_resources.extern.six.moves'.filter - imported by 'pkg_resources.extern.six.moves', pkg_resources
+missing module named 'pkg_resources.extern.six.moves' - imported by pkg_resources, pkg_resources._vendor.packaging.requirements
+missing module named pkg_resources.extern.six - imported by pkg_resources.extern, pkg_resources
+missing module named _imp - imported by pkg_resources
+missing module named thread.allocate_lock - imported by thread, _strptime
+missing module named thread._local - imported by thread, threading
+missing module named thread.stack_size - imported by thread, threading
+missing module named thread.get_ident - imported by thread, collections, future.backports.misc
+missing module named hashlib.sha1 - imported by hashlib, uuid
+missing module named hashlib.md5 - imported by hashlib, uuid
+missing module named _hashlib.pbkdf2_hmac - imported by _hashlib, hashlib
+missing module named threading.RLock - imported by threading, _threading_local
+missing module named threading.current_thread - imported by threading, _threading_local
+missing module named time.time - imported by time, threading, Queue
+missing module named time.sleep - imported by time, threading, bsddb.dbutils
+missing module named _sha512 - imported by hashlib
+missing module named _sha256 - imported by hashlib
+missing module named _md5 - imported by hashlib
+missing module named _sha - imported by hashlib
+missing module named binascii.hexlify - imported by binascii, random
+missing module named binascii.a2b_uu - imported by binascii, encodings.uu_codec
+missing module named binascii.b2a_uu - imported by binascii, encodings.uu_codec
+missing module named binascii.b2a_qp - imported by binascii, quopri
+missing module named binascii.a2b_qp - imported by binascii, quopri
+missing module named binascii.b2a_base64 - imported by binascii, email.base64mime, future.backports.email.base64mime
+missing module named binascii.a2b_base64 - imported by binascii, email.base64mime, future.backports.email.base64mime
+missing module named os.urandom - imported by os, random
+missing module named math.sin - imported by math, random
+missing module named math.sqrt - imported by math, random
+missing module named math.cos - imported by math, random
+missing module named math.acos - imported by math, random
+missing module named math.ceil - imported by math, random, future.backports.misc
+missing module named math.exp - imported by math, random
+missing module named math.log - imported by math, random
+missing module named math.e - imported by math, random
+missing module named math.pi - imported by math, random
+missing module named locale.normalize - imported by locale, gettext
+missing module named _winreg - imported by winreg, platform, mimetypes, urllib
+missing module named _winreg.OpenKeyEx - imported by _winreg, platform
+missing module named _winreg.HKEY_LOCAL_MACHINE - imported by _winreg, platform
+missing module named _winreg.QueryValueEx - imported by _winreg, platform
+missing module named _winreg.CloseKey - imported by _winreg, platform
+missing module named _scproxy._get_proxy_settings - imported by _scproxy, urllib, future.backports.urllib.request
+missing module named _scproxy._get_proxies - imported by _scproxy, urllib, future.backports.urllib.request
+missing module named aetypes.mkenum - imported by aetypes, aepack
+missing module named aetypes.ObjectSpecifier - imported by aetypes, aepack
+missing module named OverrideFrom23 - imported by Carbon.Res
+missing module named Carbon.File.FSGetResourceForkName - imported by Carbon.File, plistlib
+missing module named Carbon.File.FSRef - imported by Carbon.File, plistlib
+missing module named Carbon.Dlg.GetDialogItemText - imported by Carbon.Dlg, EasyDialogs
+missing module named Carbon.Dlg.ModalDialog - imported by Carbon.Dlg, EasyDialogs
+missing module named Carbon.Dlg.GetNewDialog - imported by Carbon.Dlg, EasyDialogs
+missing module named Carbon.Dlg.SetDialogItemText - imported by Carbon.Dlg, EasyDialogs
+missing module named msvcrt - imported by subprocess, getpass
+missing module named SOCKS - imported by ftplib
+missing module named _ssl.SSL_ERROR_EOF - imported by _ssl, socket
+missing module named _ssl.SSL_ERROR_WANT_READ - imported by _ssl, socket
+missing module named _ssl.SSL_ERROR_WANT_CONNECT - imported by _ssl, socket
+missing module named _ssl.SSL_ERROR_ZERO_RETURN - imported by _ssl, socket
+missing module named _ssl.SSL_ERROR_WANT_X509_LOOKUP - imported by _ssl, socket
+missing module named _ssl.SSL_ERROR_SSL - imported by _ssl, socket
+missing module named _ssl.SSL_ERROR_INVALID_ERROR_CODE - imported by _ssl, socket
+missing module named _ssl.SSL_ERROR_WANT_WRITE - imported by _ssl, socket
+missing module named _ssl.SSL_ERROR_SYSCALL - imported by _ssl, socket
+missing module named _ssl.enum_crls - imported by _ssl, ssl
+missing module named _ssl.enum_certificates - imported by _ssl, ssl
+missing module named _ssl._OPENSSL_API_VERSION - imported by _ssl, ssl
+missing module named _ssl.HAS_ECDH - imported by _ssl, ssl
+missing module named _ssl.HAS_ALPN - imported by _ssl, ssl
+missing module named _ssl.HAS_NPN - imported by _ssl, ssl
+missing module named _ssl.HAS_SNI - imported by _ssl, ssl
+missing module named _ssl.RAND_egd - imported by _ssl, ssl, socket
+missing module named _ssl.RAND_status - imported by _ssl, ssl, socket
+missing module named _ssl.RAND_add - imported by _ssl, ssl, socket
+missing module named _ssl.txt2obj - imported by _ssl, ssl
+missing module named _ssl.nid2obj - imported by _ssl, ssl
+missing module named _ssl.CERT_REQUIRED - imported by _ssl, ssl
+missing module named _ssl.CERT_NONE - imported by _ssl, ssl
+missing module named _ssl.CERT_OPTIONAL - imported by _ssl, ssl
+missing module named _ssl.SSLEOFError - imported by _ssl, ssl
+missing module named _ssl.SSLWantReadError - imported by _ssl, ssl
+missing module named _ssl.SSLError - imported by _ssl, ssl, socket
+missing module named _ssl.SSLWantWriteError - imported by _ssl, ssl
+missing module named _ssl.SSLSyscallError - imported by _ssl, ssl
+missing module named _ssl.SSLZeroReturnError - imported by _ssl, ssl
+missing module named _ssl._SSLContext - imported by _ssl, ssl
+missing module named _ssl.OPENSSL_VERSION_NUMBER - imported by _ssl, ssl
+missing module named _ssl.OPENSSL_VERSION_INFO - imported by _ssl, ssl
+missing module named _ssl.OPENSSL_VERSION - imported by _ssl, ssl
+missing module named sys.py3kwarning - imported by sys, httplib
+missing module named time.strptime - imported by time, ssl
+missing module named socket.SO_TYPE - imported by socket, ssl
+missing module named socket.SOL_SOCKET - imported by socket, ssl
+missing module named socket.AF_INET - imported by socket, ssl
+missing module named socket.create_connection - imported by socket, ssl, future.backports.misc
+missing module named socket.SOCK_STREAM - imported by socket, ssl, future.backports.misc
+missing module named socket.error - imported by socket, ssl, future.backports.misc
+missing module named socket.socket - imported by socket, ssl, future.backports.misc
+missing module named socket._delegate_methods - imported by socket, ssl
+missing module named socket._fileobject - imported by socket, ssl
+missing module named rourl2path.url2pathname - imported by rourl2path, urllib
+missing module named rourl2path.pathname2url - imported by rourl2path, urllib
+missing module named rourl2path - imported by urllib
+missing module named socket.getaddrinfo - imported by socket, future.backports.misc
+missing module named base64.encodebytes - imported by base64, future.backports.email.encoders
+missing module named xml.parsers.expat.ParserCreate - imported by xml.parsers.expat, plistlib
+missing module named 'java.lang'.Exception - imported by 'java.lang', xml.sax._exceptions
+missing module named 'java.lang' - imported by platform, xml.sax._exceptions
+missing module named _xmlplus - imported by xml
+missing module named collections.ChainMap - imported by collections, future.backports.misc
+missing module named collections._count_elements - imported by collections, future.backports.misc
+missing module named collections.Mapping - imported by collections, future.backports.misc
+missing module named collections.MutableMapping - imported by collections, future.backports.misc
+missing module named collections.Sequence - imported by collections, future.types.newrange
+missing module named collections.Iterator - imported by collections, future.types.newrange
+missing module named collections.Iterable - imported by collections, future.types.newbytes, future.types.newstr
+missing module named cPickle.loads - imported by cPickle, collections
+missing module named cPickle.dumps - imported by cPickle, collections
+missing module named collections.OrderedDict - imported by collections, unittest.util, future.backports.misc
+missing module named operator.itemgetter - imported by operator, collections, heapq, future.backports.misc
+missing module named operator.eq - imported by operator, collections, future.backports.misc
+missing module named _collections.deque - imported by _collections, collections
+missing module named _collections.defaultdict - imported by _collections, collections
+missing module named vms_lib - imported by platform
+missing module named java.System - imported by java, platform
+missing module named java - imported by platform
+missing module named gestalt.gestalt - imported by gestalt, platform
+missing module named winreg.OpenKeyEx - imported by winreg, platform
+missing module named winreg.HKEY_LOCAL_MACHINE - imported by winreg, platform
+missing module named winreg.QueryValueEx - imported by winreg, platform
+missing module named winreg.CloseKey - imported by winreg, platform
+missing module named sys.getwindowsversion - imported by sys, platform
+missing module named win32pipe - imported by platform
+missing module named zipimport.zipimporter - imported by zipimport, pkgutil
+missing module named _functools.partial - imported by _functools, functools
+missing module named _functools.reduce - imported by _functools, functools
+missing module named __builtin__.open - imported by __builtin__, tarfile
+missing module named grp.getgrnam - imported by grp, shutil
+missing module named _io.DEFAULT_BUFFER_SIZE - imported by _io, io
+missing module named _io.BytesIO - imported by _io, io
+missing module named _io.open - imported by _io, io
+missing module named _io.BufferedWriter - imported by _io, io
+missing module named _io.FileIO - imported by _io, io
+missing module named _io.BlockingIOError - imported by _io, io
+missing module named _io.IncrementalNewlineDecoder - imported by _io, io
+missing module named _io.BufferedReader - imported by _io, io
+missing module named _io.BufferedRandom - imported by _io, io
+missing module named _io.StringIO - imported by _io, io
+missing module named _io.BufferedRWPair - imported by _io, io
+missing module named _io.TextIOWrapper - imported by _io, io
+missing module named _io.UnsupportedOperation - imported by _io, io
+missing module named __builtin__.pow - imported by __builtin__, future.builtins.misc
+missing module named __builtin__.unichr - imported by __builtin__, future.builtins.misc
+missing module named unicodedata.ucd_3_2_0 - imported by unicodedata, stringprep, encodings.idna
+missing module named codecs.mbcs_encode - imported by codecs, encodings.mbcs
+missing module named codecs.mbcs_decode - imported by codecs, encodings.mbcs
+missing module named win32print - imported by zebra
+missing module named datetime.datetime - imported by datetime, /Users/terence/code/testgui/src/testgui_app.py
+missing module named datetime.date - imported by datetime, _strptime
+missing module named netbios - imported by uuid
+missing module named win32wnet - imported by uuid
+missing module named riscosenviron._Environ - imported by riscosenviron, os
+missing module named riscosenviron - imported by os
+missing module named riscospath - imported by os
+missing module named riscos._exit - imported by riscos, os
+missing module named riscos - imported by os
+missing module named ce._exit - imported by ce, os
+missing module named ce - imported by os
+missing module named _emx_link.link - imported by _emx_link, os
+missing module named _emx_link - imported by os
+missing module named os2._exit - imported by os2, os
+missing module named os2 - imported by os
+missing module named nt._isdir - imported by nt, ntpath
+missing module named nt._getfullpathname - imported by nt, ntpath
+missing module named nt._exit - imported by nt, os
+missing module named nt - imported by os, ntpath
+missing module named posix._exit - imported by posix, os
+missing module named _subprocess.STD_OUTPUT_HANDLE - imported by _subprocess, subprocess
+missing module named _subprocess.CREATE_NEW_PROCESS_GROUP - imported by _subprocess, subprocess
+missing module named _subprocess.STD_INPUT_HANDLE - imported by _subprocess, subprocess
+missing module named _subprocess.STARTF_USESHOWWINDOW - imported by _subprocess, subprocess
+missing module named _subprocess.CREATE_NEW_CONSOLE - imported by _subprocess, subprocess
+missing module named _subprocess.STD_ERROR_HANDLE - imported by _subprocess, subprocess
+missing module named _subprocess.STARTF_USESTDHANDLES - imported by _subprocess, subprocess
+missing module named _subprocess.SW_HIDE - imported by _subprocess, subprocess
+missing module named org.PyStringMap - imported by org, pickle
+missing module named org - imported by pickle
+missing module named _subprocess - imported by subprocess
+missing module named Adafruit_BluefruitLE.platform.get_provider - imported by Adafruit_BluefruitLE.platform, Adafruit_BluefruitLE.bluez_dbus.device, Adafruit_BluefruitLE.bluez_dbus.gatt, Adafruit_BluefruitLE.corebluetooth.provider, Adafruit_BluefruitLE.corebluetooth.adapter, Adafruit_BluefruitLE.corebluetooth.device, Adafruit_BluefruitLE, Adafruit_BluefruitLE.services.servicebase
+missing module named Adafruit_BluefruitLE.corebluetooth.provider.service_list - imported by Adafruit_BluefruitLE.corebluetooth.provider, Adafruit_BluefruitLE.corebluetooth.device
+missing module named Adafruit_BluefruitLE.corebluetooth.provider.descriptor_list - imported by Adafruit_BluefruitLE.corebluetooth.provider, Adafruit_BluefruitLE.corebluetooth.gatt, Adafruit_BluefruitLE.corebluetooth.device
+missing module named Adafruit_BluefruitLE.corebluetooth.provider.device_list - imported by Adafruit_BluefruitLE.corebluetooth.provider, Adafruit_BluefruitLE.corebluetooth.gatt, Adafruit_BluefruitLE.corebluetooth.device
+missing module named Adafruit_BluefruitLE.corebluetooth.provider.characteristic_list - imported by Adafruit_BluefruitLE.corebluetooth.provider, Adafruit_BluefruitLE.corebluetooth.gatt, Adafruit_BluefruitLE.corebluetooth.device
+missing module named ExceptionHandling.NSLogAndHandleEveryExceptionMask - imported by ExceptionHandling, PyObjCTools.Debugging
+missing module named ExceptionHandling.NSLogUncaughtExceptionMask - imported by ExceptionHandling, PyObjCTools.Debugging
+missing module named ExceptionHandling.NSExceptionHandler - imported by ExceptionHandling, PyObjCTools.Debugging
+missing module named ExceptionHandling.NSStackTraceKey - imported by ExceptionHandling, PyObjCTools.Debugging
+missing module named objc.super - imported by objc, PyObjCTools.AppHelper
+missing module named Foundation.NSObject - imported by Foundation, PyObjCTools.AppHelper, PyObjCTools.Debugging
+missing module named Foundation.NSTimer - imported by Foundation, PyObjCTools.AppHelper
+missing module named Foundation.NSDefaultRunLoopMode - imported by Foundation, PyObjCTools.AppHelper
+missing module named Foundation.NSRunLoop - imported by Foundation, PyObjCTools.AppHelper
+missing module named Foundation.NSLog - imported by Foundation, PyObjCTools.AppHelper, PyObjCTools.Debugging
+missing module named Foundation.NSNotificationCenter - imported by Foundation, PyObjCTools.AppHelper
+missing module named Foundation.NSAutoreleasePool - imported by Foundation, PyObjCTools.AppHelper
+missing module named Foundation.NSProcessInfo - imported by Foundation, Foundation._functiondefines
+missing module named Foundation.NSBundle - imported by Foundation, Foundation._functiondefines
+missing module named Foundation._inlines._inline_list_ - imported by Foundation._inlines, Foundation
+missing module named CoreFoundation._inlines._inline_list_ - imported by CoreFoundation._inlines, CoreFoundation
+missing module named AppKit.NSApplicationDidFinishLaunchingNotification - imported by AppKit, PyObjCTools.AppHelper
+missing module named AppKit.NSRunAlertPanel - imported by AppKit, PyObjCTools.AppHelper
+missing module named AppKit.NSApplicationMain - imported by AppKit, PyObjCTools.AppHelper
+missing module named AppKit.__bundle__ - imported by AppKit, AppKit._nsapp
+missing module named AppKit._inlines._inline_list_ - imported by AppKit._inlines, AppKit
+missing module named future.types.newbytes.newbytes - imported by future.types.newbytes, future.types.newstr, future.types, future.types.newint, future.utils
+missing module named future.types.no - imported by future.types, future.types.newbytes, future.types.newstr
+missing module named future.types.issubset - imported by future.types, future.types.newbytes, future.types.newstr
+missing module named future.utils.isbytes - imported by future.utils, future.types.newbytes, future.types.newint
+missing module named future.utils.with_metaclass - imported by future.utils, future.types.newbytes, future.types.newobject, future.types.newstr, future.types.newint, future.types.newdict, future.types.newlist, future.backports.email._policybase
+missing module named future.utils.istext - imported by future.utils, future.types.newbytes, future.types.newstr, future.types.newint
+missing module named future.utils.isnewbytes - imported by future.utils, future.types.newstr
+missing module named future.standard_library.import_top_level_modules - imported by future.standard_library, future.moves, future.backports
+missing module named dbm.ndbm - imported by dbm, future.moves.dbm, future.moves.dbm.ndbm
+missing module named 'dbm.gnu' - imported by future.moves.dbm.gnu
+missing module named _ast.__version__ - imported by _ast, ast
+missing module named 'dbm.dumb' - imported by future.moves.dbm.dumb
+missing module named _bsddb.__version__ - imported by _bsddb, bsddb.db
+missing module named _pybsddb.__version__ - imported by _pybsddb, bsddb.db
+missing module named _bsddb - imported by bsddb, bsddb.db
+missing module named bsddb3.DeadlockWrap - imported by bsddb3, bsddb
+missing module named bsddb3 - imported by bsddb
+missing module named _pybsddb - imported by bsddb, bsddb.db
+missing module named cookielib.join_header_words - imported by cookielib, _LWPCookieJar
+missing module named cookielib.time2isoz - imported by cookielib, _LWPCookieJar
+missing module named cookielib._warn_unhandled_exception - imported by cookielib, _LWPCookieJar, _MozillaCookieJar
+missing module named cookielib.Cookie - imported by cookielib, _LWPCookieJar, _MozillaCookieJar
+missing module named cookielib.split_header_words - imported by cookielib, _LWPCookieJar
+missing module named cookielib.LoadError - imported by cookielib, _LWPCookieJar, _MozillaCookieJar
+missing module named cookielib.MISSING_FILENAME_TEXT - imported by cookielib, _LWPCookieJar, _MozillaCookieJar
+missing module named cookielib.FileCookieJar - imported by cookielib, _LWPCookieJar, _MozillaCookieJar
+missing module named cookielib.iso2time - imported by cookielib, _LWPCookieJar
+missing module named _dummy_threading.__all__ - imported by _dummy_threading, dummy_threading
+missing module named _dummy_threading - imported by dummy_threading
+missing module named sys.modules - imported by sys, dummy_threading
+missing module named 'test.support' - imported by future.moves.test.support
+missing module named future.standard_library.suspend_hooks - imported by future.standard_library, future.moves.test.support
+missing module named future.utils.raise_with_traceback - imported by future.utils, future.backports.urllib.request, future.backports.urllib.parse
+missing module named future.utils.as_native_str - imported by future.utils, future.backports.email.message, future.backports.http.cookiejar
+missing module named future.utils.implements_iterator - imported by future.utils, future.backports.email.feedparser
+missing module named future.utils.PY2 - imported by future.utils, future.standard_library, future.backports.urllib.request, future.backports.datetime, future.backports.http.client
+missing module named _datetime.__doc__ - imported by _datetime, future.backports.datetime
+missing module named _datetime - imported by future.backports.datetime
+missing module named future.utils.native_str - imported by future.utils, future.backports.datetime
+missing module named reprlib.recursive_repr - imported by reprlib, future.backports.misc
+missing module named _dummy_thread.get_ident - imported by _dummy_thread, future.backports.misc
+missing module named _thread.get_ident - imported by _thread, future.backports.misc
+missing module named future.utils.iteritems - imported by future.utils, future.backports.misc
+missing module named future.utils.itervalues - imported by future.utils, future.backports.misc
+missing module named future.utils.PY26 - imported by future.utils, future.backports.misc, future.builtins.newround, future.builtins.newsuper
+missing module named future.utils.native - imported by future.utils, future.types.newint
+missing module named future.utils.isint - imported by future.utils, future.types.newint
+missing module named future.utils.PY3 - imported by future.utils, future.types.newbytes, future.types.newstr, future.types.newint, future.standard_library, future.backports.urllib.request, future.backports.email.feedparser, future.backports.misc, future.moves.test, future.moves.test.support, future.moves.dbm, future.moves.dbm.ndbm, future.moves.dbm.dumb, future.moves.dbm.gnu, future.builtins.newsuper, future.builtins
+missing module named future_builtins.oct - imported by future_builtins, future.builtins.misc
+missing module named future_builtins.ascii - imported by future_builtins, future.builtins.misc
+missing module named future_builtins.hex - imported by future_builtins, future.builtins.misc
+missing module named future.builtins.next - imported by future.builtins, future.backports.email.charset
+missing module named future.builtins.chr - imported by future.builtins, future.backports.urllib.parse, future.backports.email.quoprimime, future.backports.email._encoded_words
+missing module named future.builtins.round - imported by future.builtins, future.backports.datetime
+missing module named future.builtins.zip - imported by future.builtins, future.backports.email.message, future.backports.email.header
+missing module named future.builtins.list - imported by future.builtins, future.backports.email.message
+missing module named future.builtins.super - imported by future.builtins, future.backports.email.feedparser, future.backports.email.errors, future.backports.email._policybase, future.backports.email.header, future.backports.email.quoprimime, future.backports.email.generator, future.backports.http.client
+missing module named future.builtins.object - imported by future.builtins, future.backports.email.feedparser, future.backports.datetime, future.backports.urllib.response
+missing module named future.builtins.range - imported by future.builtins, future.backports.email.feedparser, future.backports.email.message, future.backports.urllib.parse, future.backports.email.header, future.backports.email.base64mime, future.backports.email.quoprimime
+missing module named future.builtins.open - imported by future.builtins, future.backports.urllib.request, future.backports.http.cookiejar
+missing module named future.builtins.input - imported by future.builtins, future.backports.urllib.request
+missing module named future.builtins.str - imported by future.builtins, future.backports.urllib.request, future.backports.email.message, future.backports.email.utils, future.backports.datetime, future.backports.urllib.parse, future.backports.email.encoders, future.backports.email.charset, future.backports.email._policybase, future.backports.email.header, future.backports.email._encoded_words, future.backports.email.generator, future.backports.http.client, future.backports.http.cookiejar, future.backports.urllib.robotparser
+missing module named future.builtins.dict - imported by future.builtins, future.backports.urllib.request, future.backports.urllib.parse, future.backports.email.quoprimime
+missing module named future.builtins.filter - imported by future.builtins, future.backports.urllib.request, future.backports.http.cookiejar
+missing module named future.builtins.bytes - imported by future.builtins, future.backports.urllib.request, future.backports.email.utils, future.backports.datetime, future.backports.urllib.parse, future.backports.email.header, future.backports.email.base64mime, future.backports.email.quoprimime, future.backports.email._encoded_words, future.backports.http.client
+missing module named future.builtins.int - imported by future.builtins, future.backports.urllib.request, future.backports.email.utils, future.backports.datetime, future.backports.urllib.parse, future.backports.email._parseaddr, future.backports.email.quoprimime, future.backports.email._encoded_words, future.backports.http.client, future.backports.http.cookiejar
+missing module named future.builtins.map - imported by future.builtins, future.backports.urllib.request, future.backports.datetime, future.backports.http.cookiejar
+missing module named objc._objc._nameForSignature - imported by objc._objc, objc._callable_docstr
+missing module named objc.loadBundle - imported by objc, objc._lazyimport
+missing module named objc.nosuchclass_error - imported by objc, objc._lazyimport
+missing module named objc.getClassList - imported by objc, objc._lazyimport
+missing module named objc.NULL - imported by objc, objc._properties
+missing module named objc._C_BOOL - imported by objc, objc._properties
+missing module named objc._objc.selector - imported by objc._objc, objc._convenience, objc._convenience_mapping, objc._descriptors, objc._category
+missing module named objc._objc.classAddMethods - imported by objc._objc, objc._category
+missing module named objc._objc.ivar - imported by objc._objc, objc._descriptors, objc._category
+missing module named objc._objc.objc_class - imported by objc._objc, objc._category
+missing module named objc._objc._C_SEL - imported by objc._objc, objc._descriptors
+missing module named objc._objc._makeClosure - imported by objc._objc, objc._descriptors
+missing module named objc._objc._C_ID - imported by objc._objc, objc._convenience_nsarray, objc._descriptors
+missing module named objc._objc._C_NSBOOL - imported by objc._objc, objc._descriptors
+missing module named objc._objc._C_NSUInteger - imported by objc._objc, objc._descriptors
+missing module named ElementC14N._serialize_c14n - imported by ElementC14N, xml.etree.ElementTree
+missing module named ElementC14N - imported by xml.etree.ElementTree
+missing module named objc._objc._NSNotFound - imported by objc._objc, objc._convenience_nsarray
+missing module named objc._objc.registerMetaDataForSelector - imported by objc._objc, objc._convenience, objc._convenience_nsdata, objc._convenience_nsarray
+missing module named objc._objc._C_NSInteger - imported by objc._objc, objc._convenience_nsarray
+missing module named objc._objc.lookUpClass - imported by objc._objc, objc._convenience, objc._convenience_nsdecimal, objc._convenience_nsdictionary, objc._convenience_nsset, objc._convenience_nsarray
+missing module named objc._objc.NSDecimal - imported by objc._objc, objc._convenience_nsdecimal
+missing module named objc._objc._updatingMetadata - imported by objc._objc, objc._convenience
+missing module named objc._objc._rescanClass - imported by objc._objc, objc._convenience
+missing module named objc._objc._block_call - imported by objc._objc, objc._convenience
+missing module named objc._objc.options - imported by objc._objc, objc._convenience
+missing module named objc._objc.currentBundle - imported by objc._objc, objc._convenience
+missing module named objc._objc.repythonify - imported by objc._objc, objc._convenience
+missing module named objc._objc.splitSignature - imported by objc._objc, objc._convenience
+missing module named gi.GObject - imported by gi, Adafruit_BluefruitLE.bluez_dbus.provider
+missing module named gi - imported by Adafruit_BluefruitLE.bluez_dbus.provider
+missing module named 'dbus.mainloop' - imported by Adafruit_BluefruitLE.bluez_dbus.provider
+missing module named dbus - imported by Adafruit_BluefruitLE.bluez_dbus.provider, Adafruit_BluefruitLE.bluez_dbus.adapter, Adafruit_BluefruitLE.bluez_dbus.device, Adafruit_BluefruitLE.bluez_dbus.gatt
+missing module named FCNTL - imported by serial.serialposix
+missing module named TERMIOS - imported by serial.serialposix
+missing module named 'System.IO' - imported by serial.serialcli
+missing module named System - imported by serial.serialcli
+missing module named clr - imported by serial.serialcli

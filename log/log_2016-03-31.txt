@@ -1,0 +1,62 @@
+--- {Session Start} Lot Name: "FFFFFFFF", TimeStamp: "0x56fc9e5e" ---
+2016-03-31_11:49:51_UTC+0800	  Please check UART port connection and port selection
+				  2016-03-31_11:49:51_UTC+0800	  Lot name is: FFFFFFFF, Please select Lot name.
+				  2016-03-31_11:49:51_UTC+0800	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  J-Link connection not established yet but required for command.
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  J-Link connection not established yet but required for command.
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  J-Link connection not established yet but required for command.
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  J-Link connection not established yet but required for command.
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  J-Link connection not established yet but required for command.
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  J-Link connection not established yet but required for command.
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  Sleep(50)
+				  --- {Session END} ---
+--- {Session Start} Lot Name: "FFFFFFFF", TimeStamp: "0x56fca16b" ---
+2016-03-31_12:02:52_UTC+0800	  Please check UART port connection and port selection
+				  2016-03-31_12:02:52_UTC+0800	  Lot name is: FFFFFFFF, Please select Lot name.
+				  2016-03-31_12:02:52_UTC+0800	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  J-Link connection not established yet but required for command.
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  J-Link connection not established yet but required for command.
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  J-Link connection not established yet but required for command.
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  J-Link connection not established yet but required for command.
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  J-Link connection not established yet but required for command.
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  J-Link connection not established yet but required for command.
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  Sleep(50)
+				  --- {Session END} ---
+--- {Session Start} Lot Name: "00C1D011", TimeStamp: "0x56fca175" ---
+2016-03-31_12:03:02_UTC+0800	  Please check UART port connection and port selection
+				  2016-03-31_12:03:02_UTC+0800	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  J-Link connection not established yet but required for command.
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  J-Link connection not established yet but required for command.
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  J-Link connection not established yet but required for command.
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  J-Link connection not established yet but required for command.
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  J-Link connection not established yet but required for command.
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  J-Link connection not established yet but required for command.
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  Sleep(50)
+				  --- {Session END} ---

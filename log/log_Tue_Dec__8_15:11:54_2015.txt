@@ -1,0 +1,39 @@
+Erasing Device [PASS]
+Writing UICR [PASS]
+Flash SoftDevice [PASS]
+Erasing Device [PASS]
+Writing UICR [PASS]
+Flash SoftDevice [PASS]
+Flash Tester [PASS]
+Flash Bootloader [PASS]
+
+
+
+
+
+
+> test stop
+
+> Erasing Device [PASS]
+Writing UICR [PASS]
+Flash SoftDevice [PASS]
+Flash Tester [PASS]
+Flash Bootloader [PASS]
+
+
+
+
+
+
+
+> 
+
+[TEST] <button>
+Press button 3 times to pass test.test stop
+[FAIL] <button>
+
+> test stop
+
+> test stop
+
+> 

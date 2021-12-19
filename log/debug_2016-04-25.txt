@@ -1,0 +1,5 @@
+2016-04-25_14:04:20_UTC+0800	  Print Serial Number: D011571DB250
+				  2016-04-25_14:04:45_UTC+0800	  Print Serial Number: D011571DB250
+				  2016-04-25_14:05:22_UTC+0800	  Please check JLink and Power connection
+				  2016-04-25_14:07:08_UTC+0800	  Print Serial Number: D011571DB3AC
+				  

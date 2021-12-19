@@ -1,0 +1,80 @@
+--- {Session Start} Lot Name: "FFFFFFFF", TimeStamp: "0x570ef744" ---
+2016-04-14_09:50:12_UTC+0800	  SEGGER J-Link Commander V5.10f (Compiled Dec 22 2015 14:25:20)
+				  DLL version V5.10f, compiled Dec 22 2015 14:25:14
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+				  Hardware version: V8.00
+				  S/N: 99999993
+				  License(s): RDI,FlashDL,FlashBP,JFlash,GDBFULL
+				  Emulator has Trace capability
+				  VTref = 0.000V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Can not connect to target.
+				  Reset delay: 0 ms
+				  Reset type UNKNOWN: ???
+				  Writing 00000002 -> 4001E504
+				  Writing 00000001 -> 4001E50C
+				  Sleep(50)
+				  2016-04-14_09:50:12_UTC+0800	  
+				  Lot name is: FFFFFFFF, Please select Lot name.
+				  2016-04-14_09:50:19_UTC+0800	  SEGGER J-Link Commander V5.10f (Compiled Dec 22 2015 14:25:20)
+				  DLL version V5.10f, compiled Dec 22 2015 14:25:14
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+				  Hardware version: V8.00
+				  S/N: 99999993
+				  License(s): RDI,FlashDL,FlashBP,JFlash,GDBFULL
+				  Emulator has Trace capability
+				  VTref = 0.000V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Can not connect to target.
+				  Reset delay: 0 ms
+				  Reset type UNKNOWN: ???
+				  Writing 00000001 -> 4001E504
+				  Writing 30315354 -> 10001080
+				  Writing FFFFFFFF -> 10001084
+				  Writing 570EF744 -> 10001088
+				  Writing 0003C000 -> 10001014
+				  Writing 00000001 -> 0003FC00
+				  2016-04-14_09:50:24_UTC+0800	  SEGGER J-Link Commander V5.10f (Compiled Dec 22 2015 14:25:20)
+				  DLL version V5.10f, compiled Dec 22 2015 14:25:14
+				  
+				  Connecting to J-Link via USB...O.K.
+				  Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+				  Hardware version: V8.00
+				  S/N: 99999993
+				  License(s): RDI,FlashDL,FlashBP,JFlash,GDBFULL
+				  Emulator has Trace capability
+				  VTref = 0.000V
+				  
+				  
+				  Type "connect" to establish a target connection, '?' for help
+				  Selecting SWD as current target interface.
+				  Target interface speed: 4000 kHz
+				  Device "NRF51822_XXAA" selected.
+				  
+				  
+				  Can not connect to target.
+				  Reset delay: 0 ms
+				  Reset type UNKNOWN: ???
+				  Writing 00000001 -> 4001E504
+				  Downloading file [../res/img/softdevice.bin]...Writing target memory failed.
+				  Reset delay: 0 ms
+				  Reset type UNKNOWN: ???
+				  

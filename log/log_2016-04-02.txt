@@ -1,0 +1,21 @@
+--- {Session Start} Lot Name: "FFFFFFFF", TimeStamp: "0x56ff5200" ---
+2016-04-02_13:00:49_UTC+0800	  Please check UART port connection and port selection
+				  2016-04-02_13:00:49_UTC+0800	  Lot name is: FFFFFFFF, Please select Lot name.
+				  2016-04-02_13:00:49_UTC+0800	  SEGGER J-Link Commander V5.10n (Compiled Feb 19 2016 18:41:48)
+				  DLL version V5.10n, compiled Feb 19 2016 18:41:43
+				  
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  J-Link connection not established yet but required for command.
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  J-Link connection not established yet but required for command.
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  J-Link connection not established yet but required for command.
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  J-Link connection not established yet but required for command.
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  J-Link connection not established yet but required for command.
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  J-Link connection not established yet but required for command.
+				  Connecting to J-Link via USB...FAILED: Can not connect to J-Link via USB.
+				  Sleep(50)
+				  --- {Session END} ---

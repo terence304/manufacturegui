@@ -1,0 +1,71 @@
+Erasing Device [PASS]
+Writing UICR [PASS]
+Flash SoftDevice [PASS]
+Flash Tester [PASS]
+Flash Bootloader [PASS]
+
+
+
+
+
+
+
+> 
+
+[TEST] <button>
+Press button 3 times to pass test.
+press
+press
+press
+[PASS] <button>
+
+
+[TEST] <rgb>
+Verify RED led is ON and press button to continue...
+Verify GREEN led is ON and press button to continue...
+Verify BLUE led is ON and press button to continue...
+[PASS] <rgb>
+
+
+[TEST] <mic>
+Detecting syllables
+...
+
+actual: 5, expected: 5
+[PASS] <mic>
+
+
+[TEST] <ble>
+DemoPeripheral ADVERTISING. Connect to it.The RSSI value is -50 
+DemoPeripheral CONNECTED. Now disconnect.
+DemoPeripheral DISCONNECTED.
+[PASS] <ble>
+
+
+[TEST] <axl>
+Accelerometer ON
+Press button to make measurement.
+whoami: 0x33
+z-axis
+y-axis
+x-axis
+[PASS] <axl>
+
+
+[TEST] <als>
+Press button to start measurement...
+ALS reading: 7 lux
+[PASS] <als>
+
+
+[TEST] <batt>
+Measuring battery voltage...
+Battery voltage: 3670 mV
+Connect +5V to continue...
+Disconnect +5V to continue...
+[PASS] <batt>
+
+[END]
+
+Flash Product [PASS]
+10001084 = DEAFBEEF 5667201C 
